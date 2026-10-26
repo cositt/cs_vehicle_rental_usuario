@@ -1,0 +1,5630 @@
+[
+ {
+  "id": "companias",
+  "title": "Trabajar con las dos compañías (Sunset y Pinveco)",
+  "short": "Las dos compañías",
+  "cat": "empezar",
+  "summary": "Cada furgoneta es de Sunset o de Pinveco, y cada compañía factura lo suyo. Para que todo funcione, ten **siempre marcadas las dos** arriba a la derecha.",
+  "when": "Lo primero al entrar cada día, y siempre que te salga un error de compañía o de «Acceso denegado».",
+  "before": [
+   "Has entrado en Odoo con tu usuario."
+  ],
+  "tags": [
+   "compania",
+   "empresa",
+   "sunset",
+   "pinveco",
+   "selector",
+   "acceso denegado",
+   "marcar companias",
+   "multiempresa"
+  ],
+  "result": "Ves las furgonetas, contratos y facturas de las dos compañías. Los contratos se pasan solos a la compañía dueña de la furgoneta.",
+  "notes": [
+   [
+    "warn",
+    "Con **solo una** compañía marcada, al elegir una furgoneta de la otra te saldrá: «Marque también … en el selector de compañías». No es un fallo: marca las dos."
+   ]
+  ],
+  "next": [
+   "menu",
+   "reservar"
+  ],
+  "steps": [
+   {
+    "text": "Arriba a la derecha está el **selector de compañías**. Púlsalo.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/companias/01.webp",
+    "w": 2100,
+    "h": 475,
+    "marks": [
+     {
+      "x": 93.1,
+      "y": 1.58,
+      "w": 4.02,
+      "h": 8.95
+     }
+    ]
+   },
+   {
+    "text": "Marca las casillas de **Sunset** y **Pinveco**: las dos tienen que tener el ✓.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": "El nombre que sale en **negrita** es la compañía «principal» del momento. Da igual cuál sea mientras las **dos** estén marcadas.",
+    "labels": [
+     "Casilla de **Sunset**.",
+     "Casilla de **Pinveco**."
+    ],
+    "img": "img/companias/02.webp",
+    "w": 520,
+    "h": 225,
+    "marks": [
+     {
+      "x": 10.82,
+      "y": 25.0,
+      "w": 78.37,
+      "h": 22.78
+     },
+     {
+      "x": 10.82,
+      "y": 43.33,
+      "w": 78.37,
+      "h": 22.78
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "menu",
+  "title": "Moverse por el menú de Alquiler de vehículos",
+  "short": "El menú",
+  "cat": "empezar",
+  "summary": "Todo el trabajo diario está en la aplicación **Alquiler de vehículos**. Este es el mapa del menú de arriba.",
+  "when": "Primer día, o cuando no encuentres algo.",
+  "before": [
+   "Has entrado en Odoo."
+  ],
+  "tags": [
+   "menu",
+   "donde esta",
+   "aplicacion",
+   "inicio",
+   "entrar",
+   "navegar",
+   "mapa"
+  ],
+  "result": "Sabes dónde está cada cosa.",
+  "next": [
+   "panel",
+   "disponibilidad",
+   "reservar"
+  ],
+  "steps": [
+   {
+    "text": "En la pantalla de inicio, pulsa **Alquiler de vehículos**.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/menu/01.webp",
+    "w": 2100,
+    "h": 475,
+    "marks": [
+     {
+      "x": 41.65,
+      "y": 23.68,
+      "w": 8.59,
+      "h": 32.37
+     }
+    ]
+   },
+   {
+    "text": "Este es el menú de arriba:",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "**Panel**: resumen con números del día.",
+     "**Consultas de Reserva**: lo que llega de la web.",
+     "**Disponibilidad**: qué furgonetas están libres u ocupadas.",
+     "**Reservar Vehículo**: hacer una reserva (lo más usado).",
+     "**Reserva Múltiple**: varias furgonetas de una vez.",
+     "**Vehículos Totales**: la flota.",
+     "**Contratos**: todos los contratos.",
+     "**Contratos Grupo**: contratos de varias furgonetas juntas.",
+     "**Ampliaciones**: días extra.",
+     "**Clientes**: fichas de clientes y conductores."
+    ],
+    "img": "img/menu/02.webp",
+    "w": 2100,
+    "h": 475,
+    "marks": [
+     {
+      "x": 12.46,
+      "y": 1.58,
+      "w": 3.75,
+      "h": 8.95
+     },
+     {
+      "x": 15.85,
+      "y": 1.58,
+      "w": 9.97,
+      "h": 8.95
+     },
+     {
+      "x": 25.46,
+      "y": 1.58,
+      "w": 7.08,
+      "h": 8.95
+     },
+     {
+      "x": 32.18,
+      "y": 1.58,
+      "w": 8.53,
+      "h": 8.95
+     },
+     {
+      "x": 40.35,
+      "y": 1.58,
+      "w": 8.0,
+      "h": 8.95
+     },
+     {
+      "x": 48.0,
+      "y": 1.58,
+      "w": 8.34,
+      "h": 8.95
+     },
+     {
+      "x": 55.98,
+      "y": 1.58,
+      "w": 5.44,
+      "h": 8.95
+     },
+     {
+      "x": 61.06,
+      "y": 1.58,
+      "w": 8.05,
+      "h": 8.95
+     },
+     {
+      "x": 68.76,
+      "y": 1.58,
+      "w": 6.77,
+      "h": 8.95
+     },
+     {
+      "x": 75.17,
+      "y": 1.58,
+      "w": 4.76,
+      "h": 8.95
+     }
+    ]
+   },
+   {
+    "text": "Pulsando el **+** salen el resto: Solicitudes de mantenimiento, Sustituciones, Devoluciones, Tarifas, Reglas de Depósitos y **Configuraciones**.",
+    "tip": "Si tu pantalla es más ancha verás más opciones directamente en la barra, sin el **+**.",
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/menu/03.webp",
+    "w": 434,
+    "h": 554,
+    "marks": [
+     {
+      "x": 12.65,
+      "y": 1.35,
+      "w": 11.11,
+      "h": 7.66
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "nuevo-cliente",
+  "title": "Dar de alta un cliente nuevo",
+  "short": "Cliente nuevo",
+  "cat": "clientes",
+  "summary": "Antes de reservar, el cliente tiene que existir. Para particulares se rellenan también los datos de conducción (DNI y carnet).",
+  "when": "Llega un cliente que no ha alquilado nunca.",
+  "before": [
+   "Tienes su DNI (o CIF si es empresa), dirección, teléfono y correo.",
+   "Si va a conducir él: su carnet de conducir."
+  ],
+  "tags": [
+   "cliente nuevo",
+   "alta cliente",
+   "crear cliente",
+   "contacto",
+   "dni",
+   "nif",
+   "cif",
+   "carnet",
+   "conductor",
+   "empresa",
+   "particular"
+  ],
+  "result": "El cliente ya sale al escribir su nombre en el asistente de reserva.",
+  "notes": [
+   [
+    "tip",
+    "¿Es una **empresa** con varios conductores? Crea la empresa y añade cada conductor como contacto suyo: [[conductor-empresa]]."
+   ]
+  ],
+  "next": [
+   "reservar",
+   "conductor-empresa"
+  ],
+  "steps": [
+   {
+    "text": "Pulsa **Clientes** en el menú.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/nuevo-cliente/01.webp",
+    "w": 2100,
+    "h": 475,
+    "marks": [
+     {
+      "x": 75.17,
+      "y": 1.58,
+      "w": 4.76,
+      "h": 8.95
+     }
+    ]
+   },
+   {
+    "text": "Antes de crear, **busca** si ya existe (por nombre, teléfono o DNI). Si no sale, pulsa **Nuevo**.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/nuevo-cliente/02.webp",
+    "w": 2100,
+    "h": 475,
+    "marks": [
+     {
+      "x": 33.58,
+      "y": 13.16,
+      "w": 31.12,
+      "h": 10.79
+     },
+     {
+      "x": 0.71,
+      "y": 13.16,
+      "w": 4.29,
+      "h": 10.79
+     }
+    ]
+   },
+   {
+    "text": "Rellena los datos básicos:",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "**Individuo** (particular) o **Compañía** (empresa). Sale marcado **Individuo**: cámbialo solo si es una empresa.",
+     "**Nombre** completo (o razón social).",
+     "**Dirección**.",
+     "**Teléfono** y **correo**: el correo es donde le llegan contrato y facturas.",
+     "**NIF** (DNI o CIF)."
+    ],
+    "img": "img/nuevo-cliente/03.webp",
+    "w": 1460,
+    "h": 770,
+    "marks": [
+     {
+      "x": 14.97,
+      "y": 9.9,
+      "w": 77.07,
+      "h": 5.03
+     },
+     {
+      "x": 14.97,
+      "y": 14.45,
+      "w": 57.97,
+      "h": 8.33
+     },
+     {
+      "x": 9.53,
+      "y": 39.12,
+      "w": 36.71,
+      "h": 14.61
+     },
+     {
+      "x": 16.78,
+      "y": 22.29,
+      "w": 37.07,
+      "h": 9.9
+     },
+     {
+      "x": 59.6,
+      "y": 39.12,
+      "w": 13.86,
+      "h": 5.19
+     }
+    ]
+   },
+   {
+    "text": "Si va a conducir, abre la pestaña **Conducción** y rellena DNI, fecha de nacimiento y **carnet**.",
+    "tip": null,
+    "warn": "La **caducidad** del carnet no puede ser anterior a la **expedición**. Revisa que no esté caducado.",
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "Pestaña **Conducción**.",
+     "DNI y fecha de nacimiento (para saber si es menor de 25 o mayor de 60).",
+     "Número de carnet, expedición y caducidad."
+    ],
+    "img": "img/nuevo-cliente/04.webp",
+    "w": 1360,
+    "h": 269,
+    "marks": [
+     {
+      "x": 41.2,
+      "y": 8.37,
+      "w": 10.96,
+      "h": 21.86
+     },
+     {
+      "x": 17.18,
+      "y": 33.95,
+      "w": 31.72,
+      "h": 40.47
+     },
+     {
+      "x": 17.18,
+      "y": 33.95,
+      "w": 80.89,
+      "h": 57.67
+     }
+    ]
+   },
+   {
+    "text": "Guarda (la nube de arriba). Ya puedes reservarle una furgoneta.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/nuevo-cliente/05.webp",
+    "w": 2100,
+    "h": 475,
+    "marks": [
+     {
+      "x": 4.76,
+      "y": 13.16,
+      "w": 9.26,
+      "h": 10.99
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "conductor-empresa",
+  "title": "Añadir un conductor a una empresa",
+  "short": "Conductor de empresa",
+  "cat": "clientes",
+  "summary": "Cuando el cliente es una empresa, la furgoneta la conduce un empleado suyo. Se añade como contacto de la empresa con sus datos de carnet, y luego se elige en el contrato.",
+  "when": "Una empresa alquila y te dice quién va a conducir.",
+  "before": [
+   "La empresa ya está dada de alta ([[nuevo-cliente]]).",
+   "Tienes el carnet del conductor."
+  ],
+  "tags": [
+   "conductor",
+   "chofer",
+   "empleado",
+   "empresa",
+   "contacto",
+   "carnet",
+   "conductor autorizado"
+  ],
+  "result": "El conductor aparece en el campo **Conductor** del contrato de esa empresa, y al elegirlo el contrato copia solo su carnet.",
+  "next": [
+   "revisar-contrato"
+  ],
+  "steps": [
+   {
+    "text": "Abre la ficha de la **empresa**, ve a la pestaña **Contactos** y pulsa **Añadir Contacto**.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/conductor-empresa/01.webp",
+    "w": 1360,
+    "h": 266,
+    "marks": [
+     {
+      "x": 1.93,
+      "y": 8.45,
+      "w": 9.96,
+      "h": 22.07
+     },
+     {
+      "x": 33.98,
+      "y": 34.74,
+      "w": 32.05,
+      "h": 49.3
+     }
+    ]
+   },
+   {
+    "text": "Escribe el **nombre** del conductor y su teléfono.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": "El tipo de contacto déjalo en **Contacto**.",
+    "labels": [],
+    "img": "img/conductor-empresa/02.webp",
+    "w": 1345,
+    "h": 633,
+    "marks": [
+     {
+      "x": 16.45,
+      "y": 29.09,
+      "w": 77.88,
+      "h": 6.48
+     },
+     {
+      "x": 18.45,
+      "y": 41.3,
+      "w": 75.88,
+      "h": 6.32
+     }
+    ]
+   },
+   {
+    "text": "Guarda la empresa. Luis ya sale entre sus contactos.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/conductor-empresa/03.webp",
+    "w": 1360,
+    "h": 266,
+    "marks": [
+     {
+      "x": 1.93,
+      "y": 34.74,
+      "w": 32.05,
+      "h": 49.3
+     }
+    ]
+   },
+   {
+    "text": "Ahora abre la ficha de **Luis** (búscalo en **Clientes**), pestaña **Conducción**, y pon su DNI, nacimiento y **carnet**.",
+    "tip": "En la ventanita de «Añadir Contacto» no sale esta pestaña: por eso se hace después, desde su ficha.",
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "Pestaña **Conducción**.",
+     "DNI y fecha de nacimiento.",
+     "Carnet: número, expedición y caducidad."
+    ],
+    "img": "img/conductor-empresa/04.webp",
+    "w": 1360,
+    "h": 269,
+    "marks": [
+     {
+      "x": 41.2,
+      "y": 8.37,
+      "w": 10.96,
+      "h": 21.86
+     },
+     {
+      "x": 17.18,
+      "y": 33.95,
+      "w": 31.72,
+      "h": 40.47
+     },
+     {
+      "x": 17.18,
+      "y": 33.95,
+      "w": 80.89,
+      "h": 57.67
+     }
+    ]
+   },
+   {
+    "text": "Guarda. En el contrato de la empresa elige a Luis en **Conductor**: el carnet se copia solo.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/conductor-empresa/05.webp",
+    "w": 2100,
+    "h": 475,
+    "marks": [
+     {
+      "x": 4.76,
+      "y": 14.19,
+      "w": 20.01,
+      "h": 8.73
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "reservar",
+  "title": "Reservar una furgoneta (asistente)",
+  "cat": "reservas",
+  "summary": "La forma rápida de hacer un contrato: eliges cliente, fechas y tipo, y el sistema te enseña qué furgonetas están libres esas fechas.",
+  "when": "Un cliente pide una furgoneta en el mostrador o por teléfono.",
+  "before": [
+   "El cliente ya existe en **Clientes** (si no, créalo primero).",
+   "Sabes las fechas y horas de recogida y devolución.",
+   "Tienes marcadas **las dos compañías** (Sunset y Pinveco) arriba a la derecha."
+  ],
+  "tags": [
+   "alquilar",
+   "reserva",
+   "contrato nuevo",
+   "furgo",
+   "coche",
+   "nuevo alquiler",
+   "reservar vehiculo"
+  ],
+  "result": "Se abre el contrato nuevo en estado **Borrador**. Todavía no se ha entregado nada: revisa los datos y sigue con «Entregar la furgoneta».",
+  "next": [
+   "entregar"
+  ],
+  "steps": [
+   {
+    "text": "Pulsa **Reservar Vehículo** en el menú de arriba.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/reservar/01.webp",
+    "w": 2100,
+    "h": 475,
+    "marks": [
+     {
+      "x": 32.18,
+      "y": 1.58,
+      "w": 8.53,
+      "h": 8.95
+     }
+    ]
+   },
+   {
+    "text": "Rellena **quién** y **cuándo**:",
+    "tip": "No toques **Compañía**: el contrato se pasa solo a la compañía dueña de la furgoneta que elijas.",
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "**Cliente**: escribe unas letras del nombre y elígelo de la lista.",
+     "**Fecha de inicio**: día y hora en que se lleva la furgoneta.",
+     "**Fecha final**: día y hora en que la devuelve. El **Nº de días** se calcula solo (también puedes escribir los días y se calcula la fecha final)."
+    ],
+    "img": "img/reservar/02.webp",
+    "w": 1345,
+    "h": 660,
+    "marks": [
+     {
+      "x": 5.67,
+      "y": 24.08,
+      "w": 43.22,
+      "h": 6.06
+     },
+     {
+      "x": 5.67,
+      "y": 31.09,
+      "w": 43.22,
+      "h": 6.06
+     },
+     {
+      "x": 51.12,
+      "y": 31.09,
+      "w": 43.22,
+      "h": 13.06
+     }
+    ]
+   },
+   {
+    "text": "Elige **qué** necesita y con cuántos kilómetros:",
+    "tip": null,
+    "warn": "Si **Tarifa (€/día)** sale **0,00**, esa combinación no tiene precio (por ejemplo 100 Km solo existe para 4 horas). Cambia el **Rango de Km** hasta que salga un precio. Si reservas con 0,00 te saldrá el error «El precio por día debe ser mayor que cero».",
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "**Tipo de Vehículo**: la categoría (Tipo D = furgoneta 8 m³, etc.).",
+     "**Duración**: se pone sola según los días.",
+     "**Rango de Km**: kilómetros incluidos en el precio.",
+     "**Tipo de Tarifa**: Estándar. Con **más de 29 días** pasa sola a FLEXIRENT ([[reservar-flexirent]]).",
+     "**Tarifa (€/día)**: el precio por día que va a pagar. Compruébalo antes de seguir."
+    ],
+    "img": "img/reservar/03.webp",
+    "w": 1345,
+    "h": 1003,
+    "marks": [
+     {
+      "x": 5.67,
+      "y": 29.69,
+      "w": 43.22,
+      "h": 3.99
+     },
+     {
+      "x": 5.67,
+      "y": 34.3,
+      "w": 43.22,
+      "h": 3.99
+     },
+     {
+      "x": 51.12,
+      "y": 38.92,
+      "w": 43.22,
+      "h": 3.99
+     },
+     {
+      "x": 5.67,
+      "y": 43.53,
+      "w": 43.22,
+      "h": 3.99
+     },
+     {
+      "x": 60.45,
+      "y": 43.53,
+      "w": 33.88,
+      "h": 3.62
+     }
+    ]
+   },
+   {
+    "text": "Abajo salen **solo las furgonetas libres** esas fechas. Pulsa **Reservar** en la que quieras.",
+    "tip": "¿Buscas un modelo concreto? Escribe la marca o el modelo en **Buscar vehículo**. ¿Solo las de una oficina? Elige la **Delegación**.",
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "Mira la **Delegación** (dónde está la furgoneta) y la **Compañía** (de quién es).",
+     "Pulsa **Reservar** en esa fila."
+    ],
+    "img": "img/reservar/04.webp",
+    "w": 1345,
+    "h": 1003,
+    "marks": [
+     {
+      "x": 44.54,
+      "y": 58.92,
+      "w": 17.37,
+      "h": 5.98
+     },
+     {
+      "x": 85.05,
+      "y": 59.98,
+      "w": 7.29,
+      "h": 3.86
+     }
+    ]
+   },
+   {
+    "text": "Ya tienes el contrato en **Borrador**. Revisa cliente, furgoneta, fechas y precio.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/reservar/05.webp",
+    "w": 2100,
+    "h": 1250,
+    "marks": [
+     {
+      "x": 60.78,
+      "y": 10.88,
+      "w": 4.26,
+      "h": 4.1
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "reservar-flexirent",
+  "title": "Reservar para más de un mes (FLEXIRENT)",
+  "short": "Reserva larga (FLEXIRENT)",
+  "cat": "reservas",
+  "summary": "Para alquileres de **más de 29 días** se usa la tarifa FLEXIRENT: una **cuota mensual** según los kilómetros al mes que necesite el cliente. El asistente la elige solo al poner los días.",
+  "when": "Un cliente quiere la furgoneta uno, dos o más meses.",
+  "before": [
+   "El cliente ya existe en **Clientes**.",
+   "Sabes cuántos **kilómetros al mes** va a hacer (3.000, 5.000 o 7.500)."
+  ],
+  "tags": [
+   "flexirent",
+   "larga temporada",
+   "larga duracion",
+   "meses",
+   "mensual",
+   "cuota",
+   "60 dias",
+   "30 dias",
+   "renting",
+   "alquiler largo"
+  ],
+  "result": "Contrato en **Borrador** con tarifa FLEXIRENT, el paquete de km y la **cuota mensual**. El pago sale **Mensual**.",
+  "notes": [
+   "La fianza de FLEXIRENT es siempre de **750 €** ([[reglas-deposito]]).",
+   "Los km que pase del paquete se cobran aparte al devolver."
+  ],
+  "next": [
+   "revisar-contrato",
+   "cobrar-cuotas"
+  ],
+  "steps": [
+   {
+    "text": "En **Reservar Vehículo** pon cliente, fecha de inicio y **Nº de días** (60). Con más de 29 días, el **Tipo de Tarifa** pasa solo a **FLEXIRENT**.",
+    "tip": "No hace falta elegir duración ni rango de km: en FLEXIRENT no se usan.",
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "**Cliente** y **fecha de inicio**.",
+     "**Nº de días**: la fecha final se calcula sola.",
+     "**Tipo de Tarifa**: FLEXIRENT."
+    ],
+    "img": "img/reservar-flexirent/01.webp",
+    "w": 1345,
+    "h": 956,
+    "marks": [
+     {
+      "x": 16.32,
+      "y": 16.62,
+      "w": 32.57,
+      "h": 9.02
+     },
+     {
+      "x": 60.14,
+      "y": 21.46,
+      "w": 34.19,
+      "h": 9.02
+     },
+     {
+      "x": 5.67,
+      "y": 40.8,
+      "w": 43.22,
+      "h": 4.18
+     }
+    ]
+   },
+   {
+    "text": "Elige el **Paquete de km** al mes. La **cuota mensual** cambia según el paquete.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "**Paquete de km**: 3.000, 5.000 o 7.500 km cada 30 días.",
+     "**Cuota mensual** (IVA incluido)."
+    ],
+    "img": "img/reservar-flexirent/02.webp",
+    "w": 1345,
+    "h": 956,
+    "marks": [
+     {
+      "x": 5.67,
+      "y": 35.96,
+      "w": 43.22,
+      "h": 4.18
+     },
+     {
+      "x": 63.94,
+      "y": 40.8,
+      "w": 30.39,
+      "h": 3.79
+     }
+    ]
+   },
+   {
+    "text": "Pulsa **Reservar** en la furgoneta que quieras.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/reservar-flexirent/03.webp",
+    "w": 1345,
+    "h": 956,
+    "marks": [
+     {
+      "x": 85.05,
+      "y": 63.28,
+      "w": 7.29,
+      "h": 4.05
+     }
+    ]
+   },
+   {
+    "text": "El contrato sale con la tarifa **FLEXIRENT**, el paquete de km y la **cuota mensual**. Revísalo como cualquier otro ([[revisar-contrato]]).",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "Tarifa **FLEXIRENT**.",
+     "**Paquete de km** y **cuota mensual**.",
+     "Mensualidades y **total**."
+    ],
+    "img": "img/reservar-flexirent/04.webp",
+    "w": 1360,
+    "h": 363,
+    "marks": [
+     {
+      "x": 11.65,
+      "y": 56.9,
+      "w": 86.42,
+      "h": 10.69
+     },
+     {
+      "x": 17.18,
+      "y": 72.07,
+      "w": 31.72,
+      "h": 23.79
+     },
+     {
+      "x": 66.35,
+      "y": 72.07,
+      "w": 31.72,
+      "h": 21.72
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "consulta-web",
+  "title": "Reserva hecha en la web: convertirla en contrato",
+  "short": "Reserva web",
+  "cat": "web",
+  "summary": "Cuando un cliente reserva y **paga en la web**, en Odoo aparece una **Consulta de Reserva** con sus datos, fechas y tipo de furgoneta, pero **sin furgoneta concreta**. Tú eliges la furgoneta y creas el contrato con un botón.",
+  "when": "Te llega el aviso de una reserva web, o ves una tarjeta nueva en **Consultas de Reserva**.",
+  "before": [
+   "El cliente ya ha pagado en la web (alquiler + fianza)."
+  ],
+  "tags": [
+   "web",
+   "internet",
+   "online",
+   "reserva web",
+   "consulta",
+   "oportunidad",
+   "crm",
+   "lead",
+   "redsys",
+   "pago online",
+   "pagina web"
+  ],
+  "stop": "Antes de crear el contrato comprueba que hay furgoneta de ese tipo **libre** esas fechas ([[disponibilidad]]). El cliente ya ha pagado: si no hay furgoneta, avisa al responsable **ya**.",
+  "result": "El contrato queda en **Borrador** con el precio pagado en la web y una línea **Pago online Redsys** en sus pagos. La consulta pasa a **Ganado** y desaparece de la lista.",
+  "notes": [
+   "El cliente, el DNI, el carnet y la dirección se copian solos de la web al contrato. Revísalos igualmente ([[revisar-contrato]]).",
+   "Una consulta por teléfono también se puede pasar a contrato con este botón, pero entonces el precio sale a **0** y tienes que ponerlo tú."
+  ],
+  "next": [
+   "revisar-contrato",
+   "documentos-cliente",
+   "entregar"
+  ],
+  "steps": [
+   {
+    "text": "Pulsa **Consultas de Reserva** en el menú.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/consulta-web/01.webp",
+    "w": 2100,
+    "h": 475,
+    "marks": [
+     {
+      "x": 15.85,
+      "y": 1.58,
+      "w": 9.97,
+      "h": 8.95
+     }
+    ]
+   },
+   {
+    "text": "Cada tarjeta es una reserva **pagada** en la web. Ábrela.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/consulta-web/02.webp",
+    "w": 2100,
+    "h": 475,
+    "marks": [
+     {
+      "x": 0.71,
+      "y": 45.42,
+      "w": 22.83,
+      "h": 27.74
+     }
+    ]
+   },
+   {
+    "text": "En la pestaña **Detalles de Consulta de Reserva** tienes lo que pidió el cliente.",
+    "tip": "En **Notas internas** (primera pestaña) sale el resumen del pago: tarifa, fianza y total pagado.",
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "Pestaña **Detalles de Consulta de Reserva**.",
+     "Fechas de recogida y devolución.",
+     "DNI y carnet que escribió en la web."
+    ],
+    "img": "img/consulta-web/03.webp",
+    "w": 1360,
+    "h": 520,
+    "marks": [
+     {
+      "x": 8.46,
+      "y": 4.32,
+      "w": 23.03,
+      "h": 11.28
+     },
+     {
+      "x": 61.63,
+      "y": 17.53,
+      "w": 36.44,
+      "h": 16.57
+     },
+     {
+      "x": 17.18,
+      "y": 57.02,
+      "w": 80.89,
+      "h": 7.68
+     }
+    ]
+   },
+   {
+    "text": "Pulsa **Crear Contrato** (arriba).",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/consulta-web/04.webp",
+    "w": 2100,
+    "h": 475,
+    "marks": [
+     {
+      "x": 24.87,
+      "y": 28.68,
+      "w": 7.63,
+      "h": 10.79
+     }
+    ]
+   },
+   {
+    "text": "Elige la **furgoneta** concreta y revisa fechas y kilómetros. Pulsa **Crear Contrato**.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": "Mejor una furgoneta de la delegación donde recoge el cliente (la ves en [[disponibilidad]]).",
+    "labels": [
+     "**Vehículo Disponible**: solo salen las del tipo reservado.",
+     "Fechas de recogida y devolución (vienen de la web).",
+     "**Rango de Km**.",
+     "**Crear Contrato**."
+    ],
+    "img": "img/consulta-web/05.webp",
+    "w": 1345,
+    "h": 624,
+    "marks": [
+     {
+      "x": 21.1,
+      "y": 64.18,
+      "w": 27.79,
+      "h": 6.4
+     },
+     {
+      "x": 66.33,
+      "y": 38.96,
+      "w": 28.0,
+      "h": 13.81
+     },
+     {
+      "x": 66.33,
+      "y": 53.77,
+      "w": 28.0,
+      "h": 6.4
+     },
+     {
+      "x": 5.62,
+      "y": 79.69,
+      "w": 11.91,
+      "h": 8.21
+     }
+    ]
+   },
+   {
+    "text": "Ya tienes el contrato en **Borrador** con los datos de la web. Sigue con [[revisar-contrato]].",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "Estado **Borrador**.",
+     "Cliente y DNI copiados de la web."
+    ],
+    "img": "img/consulta-web/06.webp",
+    "w": 2100,
+    "h": 475,
+    "marks": [
+     {
+      "x": 60.78,
+      "y": 28.62,
+      "w": 4.26,
+      "h": 10.79
+     },
+     {
+      "x": 9.99,
+      "y": 74.01,
+      "w": 54.03,
+      "h": 17.37
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "revisar-contrato",
+  "title": "Revisar y completar el contrato antes de entregar",
+  "short": "Revisar el contrato",
+  "cat": "reservas",
+  "summary": "Antes de dar las llaves, repasa el contrato de arriba abajo: conductor, seguro, combustible, precio, forma de pago y fianza.",
+  "when": "Justo después de reservar, o cuando el cliente viene a recoger la furgoneta.",
+  "before": [
+   "El contrato está en **Borrador** (si ya está «En curso», hay cosas que no se pueden cambiar).",
+   "Tienes a mano el DNI y el carnet de conducir de quien va a conducir."
+  ],
+  "tags": [
+   "completar contrato",
+   "editar contrato",
+   "conductor",
+   "seguro",
+   "combustible",
+   "forma de pago",
+   "fianza",
+   "tarjeta",
+   "efectivo"
+  ],
+  "result": "El contrato está completo y guardado, listo para entregar.",
+  "next": [
+   "entregar",
+   "imprimir-enviar"
+  ],
+  "steps": [
+   {
+    "text": "Pulsa **Contratos** en el menú y abre el contrato del cliente.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/revisar-contrato/01.webp",
+    "w": 2100,
+    "h": 475,
+    "marks": [
+     {
+      "x": 55.98,
+      "y": 1.58,
+      "w": 5.44,
+      "h": 8.95
+     }
+    ]
+   },
+   {
+    "text": "Pulsa en la línea del contrato para abrirlo. Arriba puedes buscar por cliente o matrícula.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/revisar-contrato/02.webp",
+    "w": 2100,
+    "h": 1250,
+    "marks": [
+     {
+      "x": -0.24,
+      "y": 14.03,
+      "w": 100.48,
+      "h": 4.8
+     },
+     {
+      "x": 33.58,
+      "y": 5.0,
+      "w": 31.12,
+      "h": 4.1
+     }
+    ]
+   },
+   {
+    "text": "Comprueba los **datos del cliente**: se rellenan solos desde su ficha y salen en el contrato impreso.",
+    "tip": "Si falta algo, escríbelo aquí; lo que escribas no se pisa. Para que salga bien la próxima vez, corrígelo en la ficha del cliente ([[nuevo-cliente]]).",
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "**DNI/NIE** (o CIF si es empresa). Pon la **caducidad del DNI** si la tienes.",
+     "**Domicilio** completo."
+    ],
+    "img": "img/revisar-contrato/03.webp",
+    "w": 1360,
+    "h": 221,
+    "marks": [
+     {
+      "x": 51.1,
+      "y": 30.14,
+      "w": 46.97,
+      "h": 38.87
+     },
+     {
+      "x": 51.1,
+      "y": 71.83,
+      "w": 46.97,
+      "h": 18.03
+     }
+    ]
+   },
+   {
+    "text": "Elige el **Conductor** que va a llevar la furgoneta. El carnet y sus fechas se rellenan solos desde su ficha.",
+    "tip": null,
+    "warn": "Si el **carnet o el DNI caducan antes de la devolución**, sale un aviso y una franja roja. Pide el documento en vigor antes de dar las llaves. Si dejas el conductor vacío, al entregar te preguntará si quieres **Entregar sin conductor**.",
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "**Conductor**: escribe el nombre y elígelo.",
+     "Comprueba que el **carnet no está caducado**."
+    ],
+    "img": "img/revisar-contrato/04.webp",
+    "w": 1360,
+    "h": 268,
+    "marks": [
+     {
+      "x": 1.93,
+      "y": 24.94,
+      "w": 46.97,
+      "h": 14.92
+     },
+     {
+      "x": 15.22,
+      "y": 42.19,
+      "w": 33.68,
+      "h": 49.42
+     }
+    ]
+   },
+   {
+    "text": "Elige el **seguro** que ha contratado el cliente. El precio por día y el total se calculan solos.",
+    "tip": null,
+    "warn": null,
+    "stop": "Si el cliente **paga en efectivo**, el seguro **Sin Franquicia es obligatorio**. Si no lo pones, no te dejará entregar.",
+    "detail": null,
+    "labels": [
+     "**Tipo de Seguro**: Básico (va **incluido en la tarifa**, franquicia 750 € + IVA por impacto) o Sin Franquicia (se cobra por día).",
+     "**Conductor Especial**: márcalo si el conductor tiene menos de 25 o más de 60 años (sube el precio).",
+     "Precio por día y total del seguro."
+    ],
+    "img": "img/revisar-contrato/05.webp",
+    "w": 1360,
+    "h": 174,
+    "marks": [
+     {
+      "x": 1.93,
+      "y": 38.35,
+      "w": 46.97,
+      "h": 22.94
+     },
+     {
+      "x": 1.93,
+      "y": 64.87,
+      "w": 17.91,
+      "h": 50.9
+     },
+     {
+      "x": 64.69,
+      "y": 38.35,
+      "w": 33.39,
+      "h": 45.16
+     }
+    ]
+   },
+   {
+    "text": "Revisa **fechas y oficinas**: dónde recoge y dónde devuelve.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "**Recogida**: oficina donde se lleva la furgoneta.",
+     "**Entrega**: oficina donde la va a devolver. Si es otra distinta, hay recargo."
+    ],
+    "img": "img/revisar-contrato/06.webp",
+    "w": 1360,
+    "h": 221,
+    "marks": [
+     {
+      "x": 1.93,
+      "y": 50.99,
+      "w": 46.97,
+      "h": 18.03
+     },
+     {
+      "x": 51.1,
+      "y": 71.83,
+      "w": 46.97,
+      "h": 18.03
+     }
+    ]
+   },
+   {
+    "text": "En **Detalles del vehículo**, apunta cómo sale la furgoneta.",
+    "tip": "¿Te has equivocado de furgoneta? Mientras esté en Borrador puedes cambiar el **Vehículo** aquí mismo.",
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "**Último odómetro**: los km que marca ahora.",
+     "**Combustible en Entrega**: sale **Lleno**, que es lo normal. Cámbialo solo si sale con menos."
+    ],
+    "img": "img/revisar-contrato/07.webp",
+    "w": 1360,
+    "h": 265,
+    "marks": [
+     {
+      "x": 1.93,
+      "y": 119.76,
+      "w": 30.13,
+      "h": 15.06
+     },
+     {
+      "x": 51.1,
+      "y": 51.06,
+      "w": 46.97,
+      "h": 23.53
+     }
+    ]
+   },
+   {
+    "text": "Revisa el **precio**: tarifa, kilómetros incluidos y total.",
+    "tip": null,
+    "warn": "Si cambias el precio a mano, te pedirá **el motivo del cambio**. Escríbelo: queda registrado.",
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "Tarifa y kilómetros incluidos.",
+     "**Alquiler / Día** y **Total Renta del Vehículo**."
+    ],
+    "img": "img/revisar-contrato/08.webp",
+    "w": 1360,
+    "h": 869,
+    "marks": [
+     {
+      "x": 16.97,
+      "y": 64.02,
+      "w": 31.93,
+      "h": 9.93
+     },
+     {
+      "x": 17.18,
+      "y": 74.67,
+      "w": 31.72,
+      "h": 14.39
+     }
+    ]
+   },
+   {
+    "text": "Elige **cómo paga** y **con qué tarjeta deja la fianza**:",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "**Tipo de pago**: sale **Pago completo** (todo de una vez). Cámbialo solo si paga por cuotas (semanal, mensual…).",
+     "**Tipo de Tarjeta para Depósito**: crédito, débito o efectivo. Cambia el importe de la fianza.",
+     "**Depósito**: importe de la fianza que se le cobra. Sale de las [[reglas-deposito|Reglas de Depósitos]]."
+    ],
+    "img": "img/revisar-contrato/09.webp",
+    "w": 1360,
+    "h": 436,
+    "marks": [
+     {
+      "x": 1.93,
+      "y": 15.33,
+      "w": 96.14,
+      "h": 8.88
+     },
+     {
+      "x": 1.93,
+      "y": 40.4,
+      "w": 46.97,
+      "h": 18.34
+     },
+     {
+      "x": 10.08,
+      "y": 60.17,
+      "w": 87.99,
+      "h": 34.67
+     }
+    ]
+   },
+   {
+    "text": "Pulsa **Guardar** (la nube de arriba). Si no hay nube, ya está guardado.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/revisar-contrato/10.webp",
+    "w": 2100,
+    "h": 475,
+    "marks": [
+     {
+      "x": 13.87,
+      "y": 17.43,
+      "w": 2.02,
+      "h": 6.71
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "documentos-cliente",
+  "title": "Guardar el carnet y el DNI escaneados en el contrato",
+  "short": "Documentos",
+  "cat": "reservas",
+  "summary": "Cada contrato tiene un botón **Documentos** para guardar la foto del carnet de conducir, el DNI o el pasaporte del cliente. Así, si hay una multa o un problema, la copia está a mano.",
+  "when": "El cliente te da su carnet y su DNI al recoger la furgoneta.",
+  "before": [
+   "El contrato ya existe ([[reservar]]).",
+   "Tienes la foto o el escaneo del documento en el ordenador (JPG, PNG o PDF)."
+  ],
+  "tags": [
+   "documentos",
+   "carnet",
+   "dni",
+   "pasaporte",
+   "escanear",
+   "foto",
+   "adjuntar",
+   "subir archivo",
+   "permiso de conducir"
+  ],
+  "warn": "Haz la foto **legible y entera**: que se lean el nombre, el número y las fechas. Una foto borrosa no sirve para una multa.",
+  "result": "El botón **Documentos** del contrato muestra cuántos hay guardados.",
+  "notes": [
+   "Tipos que se usan: **Licencia de conducir** (carnet), **Pasaporte** y **Tarjeta de identificación con foto** (DNI o NIE). Los demás (Aadhaar, elector, racionamiento) son de otro país: no los uses."
+  ],
+  "next": [
+   "imprimir-enviar",
+   "entregar"
+  ],
+  "steps": [
+   {
+    "text": "En el contrato, pulsa el botón **Documentos** (arriba a la derecha).",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/documentos-cliente/01.webp",
+    "w": 2100,
+    "h": 475,
+    "marks": [
+     {
+      "x": 46.18,
+      "y": 13.16,
+      "w": 7.65,
+      "h": 10.79
+     }
+    ]
+   },
+   {
+    "text": "Se abre la lista de documentos de este contrato (vacía la primera vez). Pulsa **Nuevo**.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/documentos-cliente/02.webp",
+    "w": 2100,
+    "h": 475,
+    "marks": [
+     {
+      "x": 0.71,
+      "y": 13.26,
+      "w": 4.29,
+      "h": 10.79
+     }
+    ]
+   },
+   {
+    "text": "Elige el **tipo** y sube el archivo.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "**Tipo de documento**: *Licencia de conducir* = carnet.",
+     "**Subir** el archivo (foto o PDF)."
+    ],
+    "img": "img/documentos-cliente/03.webp",
+    "w": 2100,
+    "h": 475,
+    "marks": [
+     {
+      "x": 50.91,
+      "y": 38.62,
+      "w": 24.15,
+      "h": 7.63
+     },
+     {
+      "x": 75.15,
+      "y": 38.62,
+      "w": 24.14,
+      "h": 7.89
+     }
+    ]
+   },
+   {
+    "text": "Pulsa **Guardar**. Repite con el DNI (tipo *Tarjeta de identificación con foto*). Vuelve al contrato con la miga de pan de arriba.",
+    "tip": "Para ver un documento guardado, pulsa en su nombre de archivo y se descarga.",
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/documentos-cliente/04.webp",
+    "w": 2100,
+    "h": 475,
+    "marks": [
+     {
+      "x": -0.24,
+      "y": 36.38,
+      "w": 100.48,
+      "h": 12.63
+     },
+     {
+      "x": 4.76,
+      "y": 13.16,
+      "w": 4.13,
+      "h": 6.38
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "danos-salida",
+  "title": "Marcar los golpes que ya tiene la furgoneta al entregarla",
+  "short": "Daños a la salida",
+  "cat": "entrega",
+  "summary": "Antes de dar las llaves, da una vuelta a la furgoneta **con el cliente** y marca en el dibujo los golpes y rayones que **ya tiene**. Así, a la vuelta, no se le cobra al cliente algo que no hizo, ni se nos escapa algo que sí hizo.",
+  "when": "Justo antes de entregar la furgoneta ([[entregar]]).",
+  "before": [
+   "El contrato está en **Borrador**.",
+   "El cliente está contigo delante de la furgoneta."
+  ],
+  "tags": [
+   "golpes",
+   "rayones",
+   "daños",
+   "arañazos",
+   "bollos",
+   "revisar furgoneta",
+   "salida",
+   "estado",
+   "dibujo",
+   "croquis",
+   "danos previos"
+  ],
+  "stop": "Si no marcas un golpe que ya estaba, a la vuelta **no podrás demostrar** quién lo hizo. Marca **todo**, aunque sea pequeño.",
+  "result": "El dibujo con los daños queda en la pestaña **Daños del Vehículo** del contrato.",
+  "notes": [
+   "Haz también **fotos** de los golpes y súbelas en la pestaña **Imágenes de vehículos**."
+  ],
+  "next": [
+   "entregar",
+   "danos-devolucion"
+  ],
+  "steps": [
+   {
+    "text": "En el contrato abre la pestaña **Daños del Vehículo** y pulsa **Abrir Editor de Daños**.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/danos-salida/01.webp",
+    "w": 1360,
+    "h": 165,
+    "marks": [
+     {
+      "x": 79.32,
+      "y": 13.64,
+      "w": 15.18,
+      "h": 35.61
+     },
+     {
+      "x": 51.1,
+      "y": 55.3,
+      "w": 17.74,
+      "h": 31.06
+     }
+    ]
+   },
+   {
+    "text": "Pinta encima de cada golpe o rayón, en la vista que toque (frontal, laterales, techo y trasera).",
+    "tip": "Con **Texto** puedes escribir al lado, por ejemplo «rayón 10 cm».",
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "Herramientas y colores.",
+     "Dibuja con el ratón (o el dedo en la tableta) sobre la furgoneta.",
+     "**Guardar**."
+    ],
+    "img": "img/danos-salida/02.webp",
+    "w": 1345,
+    "h": 1250,
+    "marks": [
+     {
+      "x": 6.6,
+      "y": 22.4,
+      "w": 42.74,
+      "h": 4.1
+     },
+     {
+      "x": 5.86,
+      "y": 31.2,
+      "w": 75.09,
+      "h": 60.8
+     },
+     {
+      "x": 5.62,
+      "y": 91.85,
+      "w": 7.75,
+      "h": 4.1
+     }
+    ]
+   },
+   {
+    "text": "Listo: el dibujo queda guardado en el contrato.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": "Al guardar, el editor se cierra solo y el dibujo aparece en el contrato. Si te equivocas, **Limpiar Imagen** lo borra y empiezas de nuevo.",
+    "labels": [],
+    "img": "img/danos-salida/03.webp",
+    "w": 1360,
+    "h": 439,
+    "marks": [
+     {
+      "x": 17.18,
+      "y": 20.74,
+      "w": 31.72,
+      "h": 74.15
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "imprimir-enviar",
+  "title": "Imprimir o enviar el contrato al cliente",
+  "short": "Imprimir / enviar",
+  "cat": "entrega",
+  "summary": "Saca el contrato en PDF para firmarlo en papel, o mándaselo al cliente por correo.",
+  "when": "Antes de entregar la furgoneta, para que el cliente lo lea y lo firme.",
+  "before": [
+   "El contrato está revisado y guardado ([[revisar-contrato]]).",
+   "El cliente tiene **correo electrónico** en su ficha (para enviarlo)."
+  ],
+  "tags": [
+   "pdf",
+   "imprimir",
+   "papel",
+   "enviar correo",
+   "mandar contrato",
+   "firma",
+   "firmar"
+  ],
+  "result": "El cliente tiene su contrato: en papel firmado, o en su correo. El envío queda apuntado en el historial de la derecha.",
+  "next": [
+   "entregar"
+  ],
+  "steps": [
+   {
+    "text": "En el contrato, arriba tienes los dos botones:",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "**Imprimir Contrato**: descarga el PDF para imprimirlo.",
+     "**Enviar Contrato**: lo manda por correo al cliente con el PDF adjunto."
+    ],
+    "img": "img/imprimir-enviar/01.webp",
+    "w": 2100,
+    "h": 475,
+    "marks": [
+     {
+      "x": 34.25,
+      "y": 28.62,
+      "w": 10.04,
+      "h": 10.79
+     },
+     {
+      "x": 44.05,
+      "y": 28.62,
+      "w": 9.19,
+      "h": 10.79
+     }
+    ]
+   },
+   {
+    "text": "Al pulsar **Imprimir Contrato** se descarga el PDF. Así se ve: datos del cliente, furgoneta, fechas, precio y condiciones.",
+    "labels": [],
+    "marks": [],
+    "tip": "Imprímelo, que el cliente lo **firme** y guárdalo. Si lo escaneas, súbelo al botón **Documentos** del contrato.",
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "doc": true,
+    "img": "img/imprimir-enviar/02.webp",
+    "w": 910,
+    "h": 1287
+   },
+   {
+    "text": "Página 2.",
+    "labels": [],
+    "marks": [],
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "doc": true,
+    "img": "img/imprimir-enviar/03.webp",
+    "w": 910,
+    "h": 1287
+   },
+   {
+    "text": "Si pulsas **Enviar Contrato**, se abre el correo ya escrito con el PDF adjunto. Revisa y pulsa **Enviar**.",
+    "tip": null,
+    "warn": "Si el cliente **no tiene correo** en su ficha, el correo no le llegará. Añádelo en [[nuevo-cliente|su ficha]].",
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "**A**: el cliente. Puedes añadir más personas.",
+     "El PDF del contrato va adjunto.",
+     "Pulsa **Enviar**."
+    ],
+    "img": "img/imprimir-enviar/04.webp",
+    "w": 1345,
+    "h": 1021,
+    "marks": [
+     {
+      "x": 12.32,
+      "y": 14.58,
+      "w": 81.17,
+      "h": 3.92
+     },
+     {
+      "x": 6.51,
+      "y": 79.51,
+      "w": 86.99,
+      "h": 5.99
+     },
+     {
+      "x": 5.62,
+      "y": 87.55,
+      "w": 6.56,
+      "h": 5.01
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "entregar",
+  "title": "Entregar la furgoneta (pasar a «En curso»)",
+  "short": "Entregar",
+  "cat": "entrega",
+  "summary": "Cuando el cliente se lleva la furgoneta, pasas el contrato a «En curso». Desde ese momento la furgoneta cuenta como alquilada.",
+  "when": "El cliente está delante, ha firmado y se va a llevar la furgoneta.",
+  "before": [
+   "Contrato revisado: conductor, seguro, combustible y km ([[revisar-contrato]]).",
+   "Contrato firmado ([[imprimir-enviar]]).",
+   "**Fianza cobrada** con la tarjeta que pone el contrato.",
+   "Has revisado la furgoneta con el cliente (golpes y rayones)."
+  ],
+  "tags": [
+   "dar llaves",
+   "salida",
+   "activar contrato",
+   "en curso",
+   "empezar alquiler",
+   "recogida"
+  ],
+  "stop": "Pulsa **En curso** solo cuando la furgoneta **sale de verdad**. Si lo pulsas antes, el sistema la da por alquilada y empieza a contar.",
+  "result": "El contrato está **En curso** y la furgoneta sale como ocupada en la Disponibilidad. Ahora aparecen los botones **Devuelto**, **Sustituir Vehículo** y **Crear cuota**.",
+  "next": [
+   "cobrar-cuotas",
+   "devolver",
+   "ampliar"
+  ],
+  "steps": [
+   {
+    "text": "Abre el contrato (debe poner **Borrador** arriba a la derecha) y pulsa **En curso**.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "Botón **En curso**.",
+     "Estado actual: **Borrador**."
+    ],
+    "img": "img/entregar/01.webp",
+    "w": 2100,
+    "h": 475,
+    "marks": [
+     {
+      "x": 13.53,
+      "y": 28.62,
+      "w": 5.19,
+      "h": 10.79
+     },
+     {
+      "x": 60.78,
+      "y": 28.62,
+      "w": 4.26,
+      "h": 10.79
+     }
+    ]
+   },
+   {
+    "text": "Se abre un **correo para el cliente** con los datos de recogida y devolución. Revísalo y pulsa **Enviar**.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": "Aunque pulses **Descartar**, el contrato ya ha pasado a **En curso**. El correo es solo un aviso para el cliente.",
+    "labels": [
+     "Para quién va.",
+     "Texto con furgoneta, fechas y oficinas.",
+     "**Enviar** (o **Descartar** si no quieres mandarlo)."
+    ],
+    "img": "img/entregar/02.webp",
+    "w": 1345,
+    "h": 1085,
+    "marks": [
+     {
+      "x": 16.96,
+      "y": 13.73,
+      "w": 76.53,
+      "h": 3.69
+     },
+     {
+      "x": 6.51,
+      "y": 25.94,
+      "w": 86.99,
+      "h": 60.76
+     },
+     {
+      "x": 5.62,
+      "y": 88.28,
+      "w": 15.02,
+      "h": 4.72
+     }
+    ]
+   },
+   {
+    "text": "Listo: arriba pone **En curso**. Fíjate en los botones nuevos.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "Estado **En curso**.",
+     "**Devuelto**: lo usarás cuando traiga la furgoneta.",
+     "**Sustituir Vehículo**: por si hay que cambiarla."
+    ],
+    "img": "img/entregar/03.webp",
+    "w": 2100,
+    "h": 475,
+    "marks": [
+     {
+      "x": 59.85,
+      "y": 28.62,
+      "w": 5.19,
+      "h": 10.79
+     },
+     null,
+     {
+      "x": 19.68,
+      "y": 28.62,
+      "w": 9.97,
+      "h": 10.79
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "entregar-sin-conductor",
+  "title": "Aviso «Entregar sin conductor»",
+  "short": "Sin conductor",
+  "cat": "entrega",
+  "summary": "Si pulsas **En curso** y el contrato no tiene **conductor autorizado**, el sistema te para y te pregunta. Puedes volver y ponerlo, o entregar igualmente.",
+  "when": "Al pulsar **En curso** te sale la ventana «Entregar sin conductor».",
+  "before": [
+   "Has pulsado **En curso** en un contrato en **Borrador** ([[entregar]])."
+  ],
+  "tags": [
+   "sin conductor",
+   "conductor autorizado",
+   "aviso",
+   "falta conductor",
+   "carnet",
+   "entregar sin conductor"
+  ],
+  "stop": "Lo normal es **volver y poner el conductor**: sin él, el contrato no tiene carnet y si hay una multa o un accidente no sabremos quién conducía.",
+  "result": "O el contrato ya tiene conductor y carnet, o queda **En curso** sin conductor porque así lo has decidido.",
+  "next": [
+   "revisar-contrato",
+   "conductor-empresa",
+   "entregar"
+  ],
+  "steps": [
+   {
+    "text": "En este contrato el campo **Conductor** está vacío.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/entregar-sin-conductor/01.webp",
+    "w": 1360,
+    "h": 268,
+    "marks": [
+     {
+      "x": 15.22,
+      "y": 24.94,
+      "w": 33.68,
+      "h": 14.92
+     }
+    ]
+   },
+   {
+    "text": "Aun así pulsas **En curso**.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/entregar-sin-conductor/02.webp",
+    "w": 2100,
+    "h": 475,
+    "marks": [
+     {
+      "x": 13.53,
+      "y": 28.62,
+      "w": 5.19,
+      "h": 10.79
+     }
+    ]
+   },
+   {
+    "text": "Sale este aviso. Tienes dos opciones:",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "El aviso: falta el **conductor autorizado**.",
+     "**Volver y añadir conductor**: lo recomendado. Cierras, pones el conductor y vuelves a pulsar **En curso**.",
+     "**Entregar sin conductor**: solo si el responsable lo autoriza."
+    ],
+    "img": "img/entregar-sin-conductor/03.webp",
+    "w": 1345,
+    "h": 429,
+    "marks": [
+     {
+      "x": 5.67,
+      "y": 37.05,
+      "w": 88.66,
+      "h": 13.11
+     },
+     {
+      "x": 22.07,
+      "y": 70.43,
+      "w": 18.52,
+      "h": 11.94
+     },
+     {
+      "x": 5.62,
+      "y": 70.43,
+      "w": 16.82,
+      "h": 11.94
+     }
+    ]
+   },
+   {
+    "text": "Pon el **conductor**. Si ya tiene el carnet en su ficha, se copia solo.",
+    "tip": "Si el conductor no existe todavía, créalo antes: [[nuevo-cliente]] o [[conductor-empresa]].",
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "**Conductor**.",
+     "Carnet, expedición y caducidad: se rellenan solos."
+    ],
+    "img": "img/entregar-sin-conductor/04.webp",
+    "w": 1360,
+    "h": 268,
+    "marks": [
+     {
+      "x": 15.22,
+      "y": 24.94,
+      "w": 33.68,
+      "h": 14.92
+     },
+     {
+      "x": 15.22,
+      "y": 42.19,
+      "w": 33.68,
+      "h": 49.42
+     }
+    ]
+   },
+   {
+    "text": "Guarda y vuelve a pulsar **En curso**: ahora ya no sale el aviso y pasa al correo de entrega.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/entregar-sin-conductor/05.webp",
+    "w": 2100,
+    "h": 475,
+    "marks": [
+     {
+      "x": 13.53,
+      "y": 28.62,
+      "w": 5.19,
+      "h": 10.79
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "cobrar-cuotas",
+  "title": "Facturar y cobrar el alquiler (cuotas)",
+  "short": "Facturar y cobrar",
+  "cat": "cobros",
+  "summary": "El alquiler se cobra por cuotas: primero se crea el calendario de cuotas, después la factura de cada cuota, y por último se registra el pago.",
+  "when": "Al entregar (pago completo) o cada vez que toca una cuota (alquileres largos).",
+  "before": [
+   "El contrato está **En curso**.",
+   "La **forma de pago** está elegida en el contrato (pago completo, mensual…)."
+  ],
+  "tags": [
+   "factura",
+   "facturar",
+   "cobrar",
+   "cuota",
+   "pago",
+   "registrar pago",
+   "recibo",
+   "calendario de pagos"
+  ],
+  "result": "La factura está **Pagada** y la cuota sale como cobrada en el contrato.",
+  "notes": [
+   [
+    "info",
+    "En contratos por cuotas (semanal, mensual…), las facturas de cada cuota se crean **solas** el día que tocan. Tú solo tienes que registrar el cobro."
+   ],
+   [
+    "warn",
+    "Sin cuotas creadas **no se puede hacer la devolución**: el botón **Devuelto** no aparece hasta que el contrato tiene su calendario de cuotas."
+   ]
+  ],
+  "next": [
+   "devolver"
+  ],
+  "steps": [
+   {
+    "text": "En el contrato **En curso**, pulsa **Crear cuota**.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": "Crea el calendario de pagos según la **forma de pago** del contrato: una sola cuota si es pago completo, o una por semana / mes…",
+    "labels": [],
+    "img": "img/cobrar-cuotas/01.webp",
+    "w": 2100,
+    "h": 475,
+    "marks": [
+     {
+      "x": 13.53,
+      "y": 28.62,
+      "w": 6.39,
+      "h": 10.79
+     }
+    ]
+   },
+   {
+    "text": "Abajo, en la pestaña **Detalles de pago del vehículo**, salen las cuotas con su fecha e importe.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "Pestaña de cuotas.",
+     "Cada línea es una cuota. Pulsa **Crear factura** en la que toque cobrar."
+    ],
+    "img": "img/cobrar-cuotas/02.webp",
+    "w": 1360,
+    "h": 403,
+    "marks": [
+     {
+      "x": 1.93,
+      "y": 5.59,
+      "w": 21.26,
+      "h": 14.6
+     },
+     {
+      "x": 0.46,
+      "y": 29.35,
+      "w": 99.08,
+      "h": 14.91
+     }
+    ]
+   },
+   {
+    "text": "Se abre la **factura en borrador**. Revisa las líneas y pulsa **Confirmar**.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": "Los precios de alquiler y seguro **ya llevan el IVA incluido**: la factura solo lo desglosa. El total coincide con lo que se le dijo al cliente.",
+    "labels": [
+     "Líneas: alquiler, seguro y fianza (la fianza va sin IVA).",
+     "Total a cobrar.",
+     "Pulsa **Confirmar**."
+    ],
+    "img": "img/cobrar-cuotas/03.webp",
+    "w": 2100,
+    "h": 1250,
+    "marks": [
+     {
+      "x": 0.77,
+      "y": 44.17,
+      "w": 64.21,
+      "h": 27.18
+     },
+     {
+      "x": 49.4,
+      "y": 72.15,
+      "w": 14.63,
+      "h": 8.33
+     },
+     {
+      "x": 0.71,
+      "y": 10.88,
+      "w": 5.72,
+      "h": 4.1
+     }
+    ]
+   },
+   {
+    "text": "La factura ya tiene número. Cuando el cliente pague, pulsa **Registrar pago**.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/cobrar-cuotas/04.webp",
+    "w": 2100,
+    "h": 475,
+    "marks": [
+     {
+      "x": 9.49,
+      "y": 28.62,
+      "w": 4.06,
+      "h": 10.79
+     }
+    ]
+   },
+   {
+    "text": "Elige **cómo ha pagado** y comprueba el importe. Pulsa **Crear pago**.",
+    "tip": "Si paga solo una parte, cambia el **Importe**: la factura quedará como «Pagado parcialmente» y podrás registrar el resto después.",
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "**Diario**: Banco (tarjeta / transferencia) o Efectivo.",
+     "**Importe** cobrado.",
+     "**Fecha** del cobro.",
+     "Pulsa **Crear pago**."
+    ],
+    "img": "img/cobrar-cuotas/05.webp",
+    "w": 1345,
+    "h": 498,
+    "marks": [
+     {
+      "x": 5.67,
+      "y": 31.94,
+      "w": 43.22,
+      "h": 8.04
+     },
+     {
+      "x": 51.12,
+      "y": 31.94,
+      "w": 26.99,
+      "h": 8.04
+     },
+     {
+      "x": 51.12,
+      "y": 41.23,
+      "w": 43.22,
+      "h": 8.04
+     },
+     {
+      "x": 5.62,
+      "y": 74.51,
+      "w": 9.59,
+      "h": 10.3
+     }
+    ]
+   },
+   {
+    "text": "Hecho: la factura sale como **Pagado** (o «En proceso de pago» hasta que el banco lo concilie).",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/cobrar-cuotas/06.webp",
+    "w": 2100,
+    "h": 1250,
+    "marks": [
+     null
+    ]
+   },
+   {
+    "text": "En el contrato, la cuota ya tiene su factura y su estado de pago.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/cobrar-cuotas/07.webp",
+    "w": 1360,
+    "h": 400,
+    "marks": [
+     {
+      "x": 0.46,
+      "y": 29.53,
+      "w": 99.08,
+      "h": 14.37
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "cargos-extra",
+  "title": "Cobrar un extra: fuera de horario, otra delegación, combustible, baliza",
+  "short": "Cargos extra",
+  "cat": "cobros",
+  "summary": "Los **recargos** (entrega fuera de horario, devolver en otra delegación, depósito no lleno, pérdida de baliza…) se apuntan en la pestaña **Servicios extra** del contrato y se facturan con un botón.",
+  "when": "El cliente pide algo que tiene recargo, o lo descubres al devolver.",
+  "before": [
+   "El contrato está en **Borrador** o **En curso** (en uno devuelto o cancelado ya no se puede)."
+  ],
+  "tags": [
+   "extra",
+   "recargo",
+   "suplemento",
+   "fuera de horario",
+   "otra delegacion",
+   "combustible",
+   "gasolina",
+   "gasoil",
+   "baliza",
+   "servicios extra",
+   "cargo adicional"
+  ],
+  "warn": "Factura los extras **antes** de cerrar el contrato: cuando está devuelto la pestaña ya no se puede tocar.",
+  "result": "El contrato tiene una **factura de servicio adicional** con los extras. Cóbrala como cualquier otra ([[cobrar-cuotas]]).",
+  "notes": [
+   "El importe de cada recargo sale solo, pero lo puedes cambiar en la línea.",
+   "Si el combustible no está lleno, añade el recargo **y** otra línea con el importe del combustible."
+  ],
+  "next": [
+   "cobrar-cuotas",
+   "devolver"
+  ],
+  "steps": [
+   {
+    "text": "En el contrato, abre la pestaña **Servicios extra** y pulsa **Añadir una línea**.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/cargos-extra/01.webp",
+    "w": 1360,
+    "h": 354,
+    "marks": [
+     {
+      "x": 37.5,
+      "y": 6.36,
+      "w": 12.6,
+      "h": 16.61
+     },
+     {
+      "x": 1.93,
+      "y": 37.1,
+      "w": 10.21,
+      "h": 8.83
+     }
+    ]
+   },
+   {
+    "text": "Elige el **recargo**. El importe sale solo. Guarda.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "El recargo (escribe «Recargo» y salen todos).",
+     "Importe y total."
+    ],
+    "img": "img/cargos-extra/02.webp",
+    "w": 1360,
+    "h": 354,
+    "marks": [
+     {
+      "x": 0.46,
+      "y": 33.39,
+      "w": 30.87,
+      "h": 16.25
+     },
+     {
+      "x": 69.03,
+      "y": 33.39,
+      "w": 21.75,
+      "h": 16.25
+     }
+    ]
+   },
+   {
+    "text": "Pulsa **Crear factura de servicio adicional** (arriba).",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/cargos-extra/03.webp",
+    "w": 2100,
+    "h": 475,
+    "marks": [
+     {
+      "x": 13.53,
+      "y": 28.62,
+      "w": 15.2,
+      "h": 10.79
+     }
+    ]
+   },
+   {
+    "text": "Se crea la factura en borrador con los extras. Revísala y pulsa **Confirmar**; después cóbrala.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/cargos-extra/04.webp",
+    "w": 1460,
+    "h": 960,
+    "marks": [
+     {
+      "x": 2.48,
+      "y": 45.77,
+      "w": 89.56,
+      "h": 25.93
+     },
+     {
+      "x": 1.03,
+      "y": 0.39,
+      "w": 8.23,
+      "h": 5.33
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "devolver",
+  "title": "Recoger la furgoneta (devolución)",
+  "short": "Devolución",
+  "cat": "devolucion",
+  "summary": "Cuando el cliente trae la furgoneta: apuntas km y combustible, revisas golpes, decides la fianza y el cliente firma. Todo en una sola ventana.",
+  "when": "El cliente llega a la oficina a devolver la furgoneta.",
+  "before": [
+   "El contrato está **En curso** y tiene sus cuotas creadas ([[cobrar-cuotas]]).",
+   "Has mirado el **cuentakilómetros** y el **nivel de combustible**.",
+   "Has dado una vuelta a la furgoneta **con el cliente delante** buscando golpes y rayones."
+  ],
+  "tags": [
+   "devolucion",
+   "recoger",
+   "traer furgoneta",
+   "devuelto",
+   "cerrar contrato",
+   "kilometros",
+   "combustible",
+   "acta",
+   "llaves"
+  ],
+  "result": "El contrato pasa a **Devuelto**, la furgoneta vuelve a estar **libre** y se genera el **acta de devolución** (PDF) que le llega al cliente por correo.",
+  "next": [
+   "danos-devolucion",
+   "devolver-fianza"
+  ],
+  "steps": [
+   {
+    "text": "Abre el contrato y pulsa **Devuelto**.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": "¿No ves el botón **Devuelto**? El contrato tiene que estar **En curso** y tener cuotas. Mira [[cobrar-cuotas]].",
+    "labels": [],
+    "img": "img/devolver/01.webp",
+    "w": 2100,
+    "h": 475,
+    "marks": [
+     {
+      "x": 13.53,
+      "y": 28.62,
+      "w": 5.28,
+      "h": 10.79
+     }
+    ]
+   },
+   {
+    "text": "Se abre la ventana **Devolución de Vehículo**. Apunta cómo vuelve:",
+    "tip": null,
+    "warn": "Los km de devolución **no pueden ser menos** que los de salida. Si te sale ese error, vuelve a mirar el cuentakilómetros.",
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "**Fecha de devolución**: ahora (cámbiala si la trajo antes).",
+     "**Kilometraje** que marca ahora. Los **km recorridos** se calculan solos.",
+     "**Combustible** con el que vuelve. Arriba ves con cuál salió."
+    ],
+    "img": "img/devolver/02.webp",
+    "w": 1345,
+    "h": 1250,
+    "marks": [
+     {
+      "x": 5.67,
+      "y": 32.97,
+      "w": 43.22,
+      "h": 3.2
+     },
+     {
+      "x": 51.12,
+      "y": 26.17,
+      "w": 43.22,
+      "h": 8.4
+     },
+     {
+      "x": 51.12,
+      "y": 35.07,
+      "w": 43.22,
+      "h": 10.5
+     }
+    ]
+   },
+   {
+    "text": "**Inspección**: marca que has revisado la furgoneta. Si **no hay daños**, deja sin marcar «El vehículo presenta daños».",
+    "tip": "¿Tiene un golpe o rayón nuevo? Sigue la tarea [[danos-devolucion]].",
+    "warn": null,
+    "stop": "Sin marcar **He inspeccionado el vehículo** no se puede cerrar la devolución. Revísala **siempre** delante del cliente.",
+    "detail": null,
+    "labels": [],
+    "img": "img/devolver/03.webp",
+    "w": 1243,
+    "h": 153,
+    "marks": [
+     {
+      "x": 2.01,
+      "y": 14.75,
+      "w": 19.62,
+      "h": 40.98
+     },
+     {
+      "x": 2.01,
+      "y": 59.84,
+      "w": 19.62,
+      "h": 40.98
+     }
+    ]
+   },
+   {
+    "text": "**Fianza**: ya viene marcado devolverla entera.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": "Se crea la **factura rectificativa** de la fianza en borrador. Después hay que confirmarla y pagarla al cliente: ver [[devolver-fianza]].",
+    "labels": [
+     "**Fianza cobrada** al principio.",
+     "**Devolver la fianza**: déjalo marcado.",
+     "**Fianza a devolver**: cámbialo si se queda una parte.",
+     "**Neto a devolver** al cliente."
+    ],
+    "img": "img/devolver/04.webp",
+    "w": 1243,
+    "h": 216,
+    "marks": [
+     {
+      "x": 16.71,
+      "y": 30.84,
+      "w": 32.08,
+      "h": 16.71
+     },
+     {
+      "x": 16.71,
+      "y": 50.43,
+      "w": 2.92,
+      "h": 17.87
+     },
+     {
+      "x": 16.71,
+      "y": 71.18,
+      "w": 32.08,
+      "h": 18.44
+     },
+     {
+      "x": 67.91,
+      "y": 30.84,
+      "w": 30.08,
+      "h": 16.71
+     }
+    ]
+   },
+   {
+    "text": "**Firma**: marca **Solicitar firma del cliente** y pulsa en el recuadro **FIRMA**.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/devolver/05.webp",
+    "w": 1243,
+    "h": 440,
+    "marks": [
+     {
+      "x": 2.01,
+      "y": 15.2,
+      "w": 19.62,
+      "h": 14.2
+     },
+     {
+      "x": 2.01,
+      "y": 50.0,
+      "w": 30.99,
+      "h": 44.89
+     }
+    ]
+   },
+   {
+    "text": "El cliente firma en la pantalla (con el dedo en tablet, o con el ratón) y pulsa **Adoptar y firmar**.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "Firma con el dedo o el ratón.",
+     "Pulsa **Adoptar y firmar**."
+    ],
+    "img": "img/devolver/06.webp",
+    "w": 1345,
+    "h": 883,
+    "marks": [
+     {
+      "x": 5.76,
+      "y": 28.63,
+      "w": 88.48,
+      "h": 45.6
+     },
+     {
+      "x": 5.62,
+      "y": 85.63,
+      "w": 12.8,
+      "h": 5.81
+     }
+    ]
+   },
+   {
+    "text": "Firma tú también en **Firma de la Empresa**. Abajo, deja marcado **Enviar email de cierre** para que le llegue el acta.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/devolver/07.webp",
+    "w": 1243,
+    "h": 500,
+    "marks": [
+     {
+      "x": 2.01,
+      "y": 15.36,
+      "w": 65.09,
+      "h": 14.46
+     },
+     {
+      "x": 2.01,
+      "y": 74.52,
+      "w": 19.62,
+      "h": 12.49
+     }
+    ]
+   },
+   {
+    "text": "Pulsa **Confirmar Devolución**.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/devolver/08.webp",
+    "w": 1343,
+    "h": 178,
+    "marks": [
+     {
+      "x": 5.54,
+      "y": 42.61,
+      "w": 16.11,
+      "h": 28.87
+     }
+    ]
+   },
+   {
+    "text": "El contrato queda **Devuelto**. Arriba tienes el botón de la devolución (con el acta) y **Devolver fianza** si queda pendiente.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/devolver/09.webp",
+    "w": 2100,
+    "h": 475,
+    "marks": [
+     {
+      "x": 49.25,
+      "y": 28.62,
+      "w": 15.79,
+      "h": 10.79
+     },
+     {
+      "x": 52.8,
+      "y": 13.16,
+      "w": 7.71,
+      "h": 10.79
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "danos-devolucion",
+  "title": "La furgoneta vuelve con daños",
+  "short": "Daños en la devolución",
+  "cat": "devolucion",
+  "summary": "Si al recogerla hay un golpe o rayón nuevo: lo marcas en el dibujo de la furgoneta, pones el importe y se descuenta de la fianza.",
+  "when": "En la devolución encuentras un daño que no estaba al salir.",
+  "before": [
+   "Has comprobado con el cliente que el daño **es nuevo** (míralo en el informe de salida o en las fotos del contrato).",
+   "Sabes el importe, o al menos una estimación. Si no, puedes dejarlo a 0 y facturarlo después."
+  ],
+  "tags": [
+   "golpe",
+   "rayon",
+   "abolladura",
+   "desperfecto",
+   "danos",
+   "dibujo",
+   "marcar danos",
+   "factura de danos",
+   "descontar fianza"
+  ],
+  "result": "El contrato queda **Devuelto**, el daño queda dibujado en el acta y se crea la **factura de daños**. La fianza se devuelve menos los daños.",
+  "next": [
+   "devolver-fianza",
+   "facturar-danos-despues"
+  ],
+  "steps": [
+   {
+    "text": "Haz la devolución como siempre ([[devolver]]): km, combustible e inspección. Después marca **El vehículo presenta daños** y pulsa **Marcar daños sobre imagen**.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/danos-devolucion/01.webp",
+    "w": 1243,
+    "h": 310,
+    "marks": [
+     {
+      "x": 2.01,
+      "y": 43.66,
+      "w": 19.62,
+      "h": 20.12
+     },
+     {
+      "x": 51.21,
+      "y": 21.53,
+      "w": 23.67,
+      "h": 16.5
+     }
+    ]
+   },
+   {
+    "text": "Se abre el **dibujo de la furgoneta** (frontal, laterales, techo y trasera). Marca dónde está el daño:",
+    "tip": "¿Te has equivocado? **Deshacer** quita la última marca y **Limpiar** las borra todas.",
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "Elige la herramienta: **Círculo** para rodear el golpe, **Flecha** para señalarlo, **Texto** para escribir.",
+     "Dibuja sobre la furgoneta, en la vista que toque.",
+     "Pulsa **Guardar** y después **Volver a la Devolución**."
+    ],
+    "img": "img/danos-devolucion/02.webp",
+    "w": 1345,
+    "h": 1250,
+    "marks": [
+     {
+      "x": 6.6,
+      "y": 19.47,
+      "w": 44.6,
+      "h": 4.1
+     },
+     {
+      "x": 12.45,
+      "y": 30.27,
+      "w": 75.09,
+      "h": 60.8
+     },
+     {
+      "x": 5.62,
+      "y": 23.77,
+      "w": 76.93,
+      "h": 72.18
+     }
+    ]
+   },
+   {
+    "text": "De vuelta en la devolución ya ves el dibujo. Completa los datos del daño:",
+    "tip": "¿Aún no sabes cuánto cuesta? Deja el importe a **0**: podrás facturarlo más adelante desde la ficha de la devolución ([[facturar-danos-despues]]).",
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "Dibujo con las marcas (puedes **Editar marcas** o **Quitar marcas**).",
+     "**Descripción**: qué es y dónde. Sale en el acta.",
+     "**Importe estimado de daños**.",
+     "**Facturar los daños ahora**: crea la factura de daños al confirmar."
+    ],
+    "img": "img/danos-devolucion/03.webp",
+    "w": 1243,
+    "h": 830,
+    "marks": [
+     {
+      "x": 2.01,
+      "y": 24.6,
+      "w": 41.05,
+      "h": 46.35
+     },
+     {
+      "x": 2.01,
+      "y": 79.08,
+      "w": 95.98,
+      "h": 5.72
+     },
+     {
+      "x": 2.01,
+      "y": 84.35,
+      "w": 46.78,
+      "h": 7.52
+     },
+     {
+      "x": 2.01,
+      "y": 92.63,
+      "w": 19.62,
+      "h": 7.52
+     }
+    ]
+   },
+   {
+    "text": "En **Fianza** no toques nada: se devuelve la fianza entera y el sistema **resta los daños** en el **Neto a devolver**.",
+    "tip": null,
+    "warn": "Si los daños **superan la fianza**, el neto sale en negativo: es lo que **el cliente tiene que pagar** de más.",
+    "stop": null,
+    "detail": "Se crean dos documentos: la **devolución de la fianza** (300 €) y la **factura de daños** (250 €). Al pagar, se compensan y el cliente recibe la diferencia.",
+    "labels": [
+     "Fianza cobrada: 300 €.",
+     "**Fianza a devolver**: la fianza entera (300 €).",
+     "**Neto a devolver**: 300 − 250 de daños = **50 €** al cliente."
+    ],
+    "img": "img/danos-devolucion/04.webp",
+    "w": 1243,
+    "h": 216,
+    "marks": [
+     {
+      "x": 16.71,
+      "y": 30.84,
+      "w": 32.08,
+      "h": 16.71
+     },
+     {
+      "x": 16.71,
+      "y": 71.18,
+      "w": 32.08,
+      "h": 18.44
+     },
+     {
+      "x": 67.91,
+      "y": 30.84,
+      "w": 30.08,
+      "h": 16.71
+     }
+    ]
+   },
+   {
+    "text": "Firma como en una devolución normal y pulsa **Confirmar Devolución**. El contrato queda **Devuelto** y ahora tiene la **factura de daños**.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/danos-devolucion/05.webp",
+    "w": 2100,
+    "h": 475,
+    "marks": [
+     {
+      "x": 49.25,
+      "y": 28.62,
+      "w": 15.79,
+      "h": 10.79
+     },
+     {
+      "x": 46.61,
+      "y": 13.16,
+      "w": 6.73,
+      "h": 10.79
+     }
+    ]
+   },
+   {
+    "text": "En la ficha de la **Devolución** (botón **Devoluciones**) tienes todo: km, daños, dibujo, y los botones del acta y la factura.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "**Generar Acta**: el PDF de la devolución con el dibujo.",
+     "**Factura de Daños**: abre la factura."
+    ],
+    "img": "img/danos-devolucion/06.webp",
+    "w": 2100,
+    "h": 1250,
+    "marks": [
+     {
+      "x": 0.71,
+      "y": 11.4,
+      "w": 6.95,
+      "h": 4.1
+     },
+     {
+      "x": 44.81,
+      "y": 5.0,
+      "w": 10.37,
+      "h": 4.1
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "devolver-fianza",
+  "title": "Devolver la fianza al cliente",
+  "short": "Devolver fianza",
+  "cat": "cobros",
+  "summary": "Al hacer la devolución se crea una factura rectificativa con la fianza. Solo tienes que confirmarla y registrar que se la has devuelto.",
+  "when": "Después de la devolución, cuando le devuelves el dinero de la fianza al cliente.",
+  "before": [
+   "El contrato está **Devuelto** y en la devolución se dejó marcado **Devolver la fianza** ([[devolver]])."
+  ],
+  "tags": [
+   "fianza",
+   "deposito",
+   "devolver dinero",
+   "rectificativa",
+   "abono",
+   "reembolso",
+   "garantia",
+   "desbloquear"
+  ],
+  "result": "La rectificativa de la fianza sale como **Pagado**: queda registrado que el cliente ha recibido su fianza.",
+  "notes": [
+   [
+    "tip",
+    "¿En la devolución **no** marcaste devolver la fianza? Usa el botón **Devolver fianza** del contrato: [[devolver-fianza-despues]]."
+   ]
+  ],
+  "next": [
+   "devolver-fianza-despues"
+  ],
+  "steps": [
+   {
+    "text": "En el contrato **Devuelto**, pulsa el botón **Facturas** de arriba.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/devolver-fianza/01.webp",
+    "w": 2100,
+    "h": 475,
+    "marks": [
+     {
+      "x": 46.61,
+      "y": 13.16,
+      "w": 6.73,
+      "h": 10.79
+     }
+    ]
+   },
+   {
+    "text": "Verás la factura del alquiler y la **rectificativa de la fianza** en **Borrador** (importe en negativo). Ábrela.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/devolver-fianza/02.webp",
+    "w": 2100,
+    "h": 1250,
+    "marks": [
+     {
+      "x": -0.24,
+      "y": 14.1,
+      "w": 100.48,
+      "h": 4.8
+     }
+    ]
+   },
+   {
+    "text": "Comprueba el importe y pulsa **Confirmar**.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "Línea de la fianza a devolver.",
+     "Pulsa **Confirmar**."
+    ],
+    "img": "img/devolver-fianza/03.webp",
+    "w": 2100,
+    "h": 1250,
+    "marks": [
+     {
+      "x": 0.77,
+      "y": 44.7,
+      "w": 64.21,
+      "h": 24.68
+     },
+     {
+      "x": 0.71,
+      "y": 11.4,
+      "w": 5.72,
+      "h": 4.1
+     }
+    ]
+   },
+   {
+    "text": "Pulsa **Registrar pago**, elige **cómo se la devuelves** (Banco si es a la tarjeta, Efectivo si es en mano) y pulsa **Crear pago**.",
+    "tip": null,
+    "warn": "Si se pagó con **tarjeta**, la devolución se hace en el **datáfono o en Redsys** a esa misma tarjeta. Aquí solo lo apuntas.",
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "Diario: cómo se devuelve.",
+     "Importe devuelto.",
+     "**Crear pago**."
+    ],
+    "img": "img/devolver-fianza/04.webp",
+    "w": 1345,
+    "h": 498,
+    "marks": [
+     {
+      "x": 5.67,
+      "y": 31.94,
+      "w": 43.22,
+      "h": 8.04
+     },
+     {
+      "x": 51.12,
+      "y": 31.94,
+      "w": 26.99,
+      "h": 8.04
+     },
+     {
+      "x": 5.62,
+      "y": 74.51,
+      "w": 9.59,
+      "h": 10.3
+     }
+    ]
+   },
+   {
+    "text": "Listo: la rectificativa de la fianza sale como **Pagado**.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/devolver-fianza/05.webp",
+    "w": 2100,
+    "h": 475,
+    "marks": [
+     null
+    ]
+   }
+  ]
+ },
+ {
+  "id": "devolver-fianza-despues",
+  "title": "Devolver la fianza más tarde (botón «Devolver fianza»)",
+  "short": "Fianza más tarde",
+  "cat": "cobros",
+  "summary": "Si en la devolución no marcaste devolver la fianza (por ejemplo, esperabas el presupuesto de un daño), puedes devolverla después desde el contrato.",
+  "when": "El contrato ya está Devuelto y la fianza sigue sin devolver.",
+  "before": [
+   "El contrato está **Devuelto** (o Cancelado) y tiene fianza cobrada."
+  ],
+  "tags": [
+   "fianza",
+   "deposito",
+   "devolver fianza",
+   "pendiente",
+   "tarde",
+   "despues"
+  ],
+  "result": "Se crea la rectificativa de la fianza. Confírmala y registra el pago como en [[devolver-fianza]].",
+  "next": [
+   "devolver-fianza"
+  ],
+  "steps": [
+   {
+    "text": "En el contrato **Devuelto**, pulsa **Devolver fianza**.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": "El botón solo sale si hay fianza cobrada y todavía **no** se ha devuelto.",
+    "labels": [],
+    "img": "img/devolver-fianza-despues/01.webp",
+    "w": 2100,
+    "h": 475,
+    "marks": [
+     {
+      "x": 9.04,
+      "y": 28.62,
+      "w": 9.14,
+      "h": 10.79
+     }
+    ]
+   },
+   {
+    "text": "Pon **cuánto se devuelve** y pulsa **Crear factura**.",
+    "tip": null,
+    "warn": "No puedes devolver **más** de lo que se cobró.",
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "**Fianza total**: la fianza cobrada.",
+     "**Importe a devolver**: lo que le devuelves (si se queda una parte por daños, pon solo el resto).",
+     "Pulsa **Crear factura**."
+    ],
+    "img": "img/devolver-fianza-despues/02.webp",
+    "w": 1345,
+    "h": 425,
+    "marks": [
+     {
+      "x": 51.12,
+      "y": 37.39,
+      "w": 43.22,
+      "h": 8.52
+     },
+     {
+      "x": 51.12,
+      "y": 47.38,
+      "w": 43.22,
+      "h": 9.41
+     },
+     {
+      "x": 5.62,
+      "y": 70.16,
+      "w": 10.89,
+      "h": 12.05
+     }
+    ]
+   },
+   {
+    "text": "Se abre la rectificativa en **Borrador**. Pulsa **Confirmar** y luego **Registrar pago**, igual que en [[devolver-fianza]].",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/devolver-fianza-despues/03.webp",
+    "w": 2100,
+    "h": 475,
+    "marks": [
+     {
+      "x": 0.71,
+      "y": 28.62,
+      "w": 5.72,
+      "h": 10.79
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "facturar-danos-despues",
+  "title": "Facturar un daño días después de la devolución",
+  "short": "Facturar daños después",
+  "cat": "devolucion",
+  "summary": "Si en la devolución marcaste daños pero **aún no sabías cuánto costaban** (el taller tenía que dar presupuesto), los facturas después desde la **ficha de la devolución**.",
+  "when": "El taller ya te ha dado el importe de un daño de una furgoneta que ya se devolvió.",
+  "before": [
+   "En la devolución marcaste **El vehículo presenta daños** y dejaste el importe a 0 ([[danos-devolucion]]).",
+   "Tienes el importe del presupuesto o la factura del taller."
+  ],
+  "tags": [
+   "daños",
+   "golpe",
+   "rayon",
+   "factura daños",
+   "cobrar daños",
+   "presupuesto taller",
+   "despues",
+   "devolucion",
+   "desperfectos"
+  ],
+  "warn": "Si ya devolviste **toda** la fianza al cliente, este importe lo tendrá que pagar aparte. Llámale antes para explicárselo.",
+  "result": "La ficha de la devolución tiene el botón **Factura de Daños** con la factura al cliente.",
+  "next": [
+   "devolver-fianza",
+   "cobrar-cuotas"
+  ],
+  "steps": [
+   {
+    "text": "Pulsa **Devoluciones de Vehículos** en el menú (si no lo ves, está en el **+**).",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/facturar-danos-despues/01.webp",
+    "w": 2100,
+    "h": 475,
+    "marks": [
+     {
+      "x": 79.63,
+      "y": 26.05,
+      "w": 15.34,
+      "h": 9.21
+     }
+    ]
+   },
+   {
+    "text": "Busca la devolución de esa furgoneta (la columna **Daños** está marcada) y ábrela.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/facturar-danos-despues/02.webp",
+    "w": 2100,
+    "h": 475,
+    "marks": [
+     {
+      "x": -0.24,
+      "y": 36.92,
+      "w": 100.48,
+      "h": 12.63
+     }
+    ]
+   },
+   {
+    "text": "En la pestaña **Inspección de Daños** escribe el **importe** que ha dado el taller.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "Pestaña **Inspección de Daños**.",
+     "**Importe de los daños**.",
+     "Lo que apuntaste en la devolución."
+    ],
+    "img": "img/facturar-danos-despues/03.webp",
+    "w": 1360,
+    "h": 463,
+    "marks": [
+     {
+      "x": 16.6,
+      "y": 4.86,
+      "w": 16.23,
+      "h": 12.7
+     },
+     {
+      "x": 63.35,
+      "y": 19.73,
+      "w": 34.72,
+      "h": 8.65
+     },
+     {
+      "x": 1.93,
+      "y": 44.32,
+      "w": 96.14,
+      "h": 50.81
+     }
+    ]
+   },
+   {
+    "text": "Guarda. Aparece arriba el botón **Facturar Daños**: púlsalo.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/facturar-danos-despues/04.webp",
+    "w": 2100,
+    "h": 475,
+    "marks": [
+     {
+      "x": 7.43,
+      "y": 28.62,
+      "w": 7.77,
+      "h": 10.79
+     }
+    ]
+   },
+   {
+    "text": "Se crea la **factura de daños** al cliente en borrador. Revisa el importe y pulsa **Confirmar**. Después, cóbrala ([[cobrar-cuotas]]).",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/facturar-danos-despues/05.webp",
+    "w": 1460,
+    "h": 984,
+    "marks": [
+     {
+      "x": 2.48,
+      "y": 44.7,
+      "w": 89.56,
+      "h": 30.58
+     },
+     {
+      "x": 1.03,
+      "y": 0.38,
+      "w": 8.23,
+      "h": 5.21
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ampliar",
+  "title": "Ampliar días a un alquiler en curso",
+  "short": "Ampliar días",
+  "cat": "durante",
+  "summary": "Si el cliente quiere quedarse la furgoneta más días, se hace una ampliación: nueva fecha de fin, se firma un anexo y se factura aparte.",
+  "when": "El cliente llama o viene porque necesita la furgoneta más tiempo.",
+  "before": [
+   "El contrato está **En curso** (o en Borrador).",
+   "Has mirado que la furgoneta **está libre** esos días extra ([[disponibilidad]])."
+  ],
+  "tags": [
+   "ampliar",
+   "ampliacion",
+   "alargar",
+   "mas dias",
+   "prorrogar",
+   "prorroga",
+   "extender",
+   "anexo",
+   "nueva fecha"
+  ],
+  "result": "El contrato tiene la **nueva fecha de fin**, el anexo firmado y la **factura de la ampliación**.",
+  "next": [
+   "cobrar-cuotas"
+  ],
+  "steps": [
+   {
+    "text": "En el contrato, pulsa **Ampliar contrato**.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/ampliar/01.webp",
+    "w": 2100,
+    "h": 475,
+    "marks": [
+     {
+      "x": 34.65,
+      "y": 28.62,
+      "w": 9.66,
+      "h": 10.79
+     }
+    ]
+   },
+   {
+    "text": "Pon la **nueva fecha de fin**. Los días, el precio y el importe se calculan solos.",
+    "tip": null,
+    "warn": "La nueva fecha tiene que ser **posterior** a la fecha de fin actual.",
+    "stop": null,
+    "detail": "Al alargar, el alquiler puede pasar a un tramo más barato. Ejemplo: 2 días a 97 € = 194 € ya cobrados; con un día más son 3 días del tramo 3-5 días a 85 € = 255 €, así que la ampliación cobra **61 €**.",
+    "labels": [
+     "**Fecha de fin original** del contrato.",
+     "**Nueva fecha de fin**.",
+     "Días de ampliación (días enteros, como el contrato).",
+     "**Tarifa por día** de todo el alquiler con los días nuevos, e **importe**: solo lo que falta por cobrar."
+    ],
+    "img": "img/ampliar/02.webp",
+    "w": 1460,
+    "h": 485,
+    "marks": [
+     {
+      "x": 14.67,
+      "y": 42.6,
+      "w": 31.56,
+      "h": 7.46
+     },
+     {
+      "x": 2.48,
+      "y": 51.35,
+      "w": 43.75,
+      "h": 8.24
+     },
+     {
+      "x": 14.67,
+      "y": 60.88,
+      "w": 31.56,
+      "h": 7.46
+     },
+     {
+      "x": 61.66,
+      "y": 33.08,
+      "w": 30.39,
+      "h": 16.99
+     }
+    ]
+   },
+   {
+    "text": "Guarda. Ahora toca **firmar el anexo**: envíalo a firmar por correo, o márcalo como firmado si lo firma en papel.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "**Enviar a firmar**: le llega al cliente para firmar en el móvil.",
+     "**Marcar como firmado**: si ha firmado en papel."
+    ],
+    "img": "img/ampliar/03.webp",
+    "w": 2100,
+    "h": 475,
+    "marks": [
+     {
+      "x": 1.73,
+      "y": 92.43,
+      "w": 7.46,
+      "h": 10.79
+     },
+     {
+      "x": 18.47,
+      "y": 92.43,
+      "w": 10.2,
+      "h": 10.79
+     }
+    ]
+   },
+   {
+    "text": "Con el anexo **Firmado**, pulsa **Crear factura** para cobrar los días extra.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": "La factura de la ampliación se cobra igual que las demás: Confirmar y Registrar pago ([[cobrar-cuotas]]).",
+    "labels": [],
+    "img": "img/ampliar/04.webp",
+    "w": 2100,
+    "h": 475,
+    "marks": [
+     {
+      "x": 45.65,
+      "y": 13.16,
+      "w": 8.69,
+      "h": 10.79
+     }
+    ]
+   },
+   {
+    "text": "Se abre la factura de la ampliación en borrador: **Confirmar** y después **Registrar pago**, como siempre.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/ampliar/05.webp",
+    "w": 2100,
+    "h": 1250,
+    "marks": [
+     {
+      "x": 0.77,
+      "y": 42.3,
+      "w": 64.21,
+      "h": 26.78
+     },
+     {
+      "x": 0.71,
+      "y": 11.4,
+      "w": 5.72,
+      "h": 4.1
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "sustituir",
+  "title": "Cambiar la furgoneta durante el alquiler (sustitución)",
+  "short": "Sustituir furgoneta",
+  "cat": "durante",
+  "summary": "Si la furgoneta se avería, tiene un golpe o el cliente necesita otra, se cambia por otra sin cerrar el contrato. Son 4 pasos guiados.",
+  "when": "Avería, accidente, o el cliente pide otro tamaño a mitad del alquiler.",
+  "before": [
+   "El contrato está **En curso**.",
+   "Tienes delante las dos furgonetas: la que se retira y la nueva (km y combustible de cada una)."
+  ],
+  "tags": [
+   "sustituir",
+   "sustitucion",
+   "cambiar furgoneta",
+   "cambio de vehiculo",
+   "averia",
+   "otra furgoneta",
+   "reemplazar",
+   "addendum"
+  ],
+  "result": "El contrato sigue **En curso** con la furgoneta nueva. La vieja queda libre (o en taller) y se genera el **addendum** para firmar.",
+  "notes": [
+   [
+    "tip",
+    "¿La vieja va al taller? Después pásala a mantenimiento: [[mantenimiento]]."
+   ]
+  ],
+  "next": [
+   "mantenimiento",
+   "devolver"
+  ],
+  "steps": [
+   {
+    "text": "En el contrato **En curso**, pulsa **Sustituir Vehículo**.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/sustituir/01.webp",
+    "w": 2100,
+    "h": 475,
+    "marks": [
+     {
+      "x": 18.57,
+      "y": 28.62,
+      "w": 9.97,
+      "h": 10.79
+     }
+    ]
+   },
+   {
+    "text": "**Paso 1 de 4 — la furgoneta que se retira.** Apunta cómo vuelve y pulsa **Siguiente**.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "**Kilometraje** que marca ahora.",
+     "**Combustible** con el que vuelve.",
+     "**¿Tiene daños?** Márcalo si vuelve con golpes: podrás pintarlos y facturarlos.",
+     "**Siguiente**."
+    ],
+    "img": "img/sustituir/02.webp",
+    "w": 2100,
+    "h": 1250,
+    "marks": [
+     {
+      "x": 0.71,
+      "y": 44.57,
+      "w": 48.57,
+      "h": 5.0
+     },
+     {
+      "x": 0.71,
+      "y": 50.08,
+      "w": 48.57,
+      "h": 16.3
+     },
+     {
+      "x": 50.71,
+      "y": 44.57,
+      "w": 11.61,
+      "h": 5.0
+     },
+     {
+      "x": 92.5,
+      "y": 66.88,
+      "w": 6.79,
+      "h": 4.1
+     }
+    ]
+   },
+   {
+    "text": "**Paso 2 — motivo y furgoneta nueva.**",
+    "tip": null,
+    "warn": "Si eliges una furgoneta de **otra categoría**, puede haber **diferencia de precio**. Lo verás en el paso 4.",
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "**Motivo** de la sustitución (obligatorio).",
+     "Notas: explica qué pasa.",
+     "**Vehículo Sustituto**: solo salen las **libres** esas fechas.",
+     "Comparativa de las dos furgonetas. Pulsa **Siguiente**."
+    ],
+    "img": "img/sustituir/03.webp",
+    "w": 2100,
+    "h": 1250,
+    "marks": [
+     {
+      "x": 50.71,
+      "y": 31.55,
+      "w": 48.57,
+      "h": 22.5
+     },
+     {
+      "x": 50.71,
+      "y": 54.55,
+      "w": 48.57,
+      "h": 5.8
+     },
+     {
+      "x": 0.71,
+      "y": 67.6,
+      "w": 48.57,
+      "h": 3.2
+     },
+     {
+      "x": 92.5,
+      "y": 78.1,
+      "w": 6.79,
+      "h": 4.1
+     }
+    ]
+   },
+   {
+    "text": "**Paso 3 — la furgoneta nueva.** Apunta sus km y combustible al salir. Si ya tiene algún golpe, márcalo en **Daños Previos** para que no se le cobre al cliente.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "Km al salir.",
+     "Combustible al salir.",
+     "Daños que ya tenía.",
+     "**Siguiente**."
+    ],
+    "img": "img/sustituir/04.webp",
+    "w": 2100,
+    "h": 1250,
+    "marks": [
+     {
+      "x": 0.71,
+      "y": 45.1,
+      "w": 48.57,
+      "h": 2.9
+     },
+     {
+      "x": 0.71,
+      "y": 48.5,
+      "w": 48.57,
+      "h": 16.3
+     },
+     {
+      "x": 50.71,
+      "y": 45.1,
+      "w": 11.61,
+      "h": 5.0
+     },
+     {
+      "x": 92.5,
+      "y": 65.3,
+      "w": 6.79,
+      "h": 4.1
+     }
+    ]
+   },
+   {
+    "text": "**Paso 4 — resumen.** Revisa las dos furgonetas y, si las hay, la **diferencia de precio**.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": "Marca **aplicar diferencia** si el cliente paga (o recibe) la diferencia. Después podrás facturarla desde la sustitución.",
+    "labels": [
+     "Furgoneta que se retira.",
+     "Furgoneta que se entrega.",
+     "Diferencia de precio por día (si cambia de categoría)."
+    ],
+    "img": "img/sustituir/05.webp",
+    "w": 2100,
+    "h": 1250,
+    "marks": [
+     {
+      "x": 60.6,
+      "y": 34.95,
+      "w": 38.69,
+      "h": 2.9
+     },
+     {
+      "x": 60.6,
+      "y": 56.65,
+      "w": 38.69,
+      "h": 2.9
+     },
+     null
+    ]
+   },
+   {
+    "text": "Que firme el cliente, firma tú y pulsa **Confirmar Sustitución**.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/sustituir/06.webp",
+    "w": 2100,
+    "h": 1250,
+    "marks": [
+     {
+      "x": 60.18,
+      "y": 69.4,
+      "w": 39.11,
+      "h": 8.95
+     },
+     {
+      "x": 87.61,
+      "y": 81.8,
+      "w": 11.68,
+      "h": 4.1
+     }
+    ]
+   },
+   {
+    "text": "Hecho: el contrato sigue **En curso** con la **furgoneta nueva**. En el historial de la derecha tienes el **Addendum** para imprimirlo o enviarlo.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "Botón **Sustituciones**: el historial de cambios del contrato.",
+     "Mensaje con el resumen y el PDF del addendum."
+    ],
+    "img": "img/sustituir/07.webp",
+    "w": 2100,
+    "h": 1250,
+    "marks": [
+     {
+      "x": 52.78,
+      "y": 5.0,
+      "w": 7.75,
+      "h": 4.1
+     },
+     {
+      "x": 65.04,
+      "y": 20.4,
+      "w": 34.25,
+      "h": 46.22
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "cancelar",
+  "title": "Cancelar un contrato (y cobrar el cargo de cancelación)",
+  "short": "Cancelar",
+  "cat": "cancelar",
+  "summary": "Si el cliente anula la reserva, cancelas el contrato. La furgoneta queda libre. Si según la política hay que cobrar algo, se hace la factura del cargo.",
+  "when": "El cliente llama para anular, o no se presenta.",
+  "before": [
+   "El contrato está en **Borrador** o **En curso** (un contrato Devuelto no se cancela).",
+   "Sabes si hay que cobrar cargo según la **política de cancelación** (cuántos días antes avisa)."
+  ],
+  "tags": [
+   "cancelar",
+   "anular",
+   "anulacion",
+   "cancelacion",
+   "no se presenta",
+   "cargo de cancelacion",
+   "penalizacion"
+  ],
+  "result": "El contrato queda **Cancelado**, la furgoneta libre y, si había cargo, su **factura** lista para confirmar y cobrar.",
+  "notes": [
+   [
+    "info",
+    "¿Ya había pagado y la cancelación es **sin cargo**? No hagas la factura del cargo: devuelve lo cobrado con una rectificativa de su factura. ¿Tenía fianza? [[devolver-fianza-despues]]."
+   ]
+  ],
+  "next": [
+   "devolver-fianza-despues"
+  ],
+  "steps": [
+   {
+    "text": "Abre el contrato y pulsa **Cancelar** (el botón rojo de arriba).",
+    "tip": null,
+    "warn": null,
+    "stop": "No confundas este **Cancelar** (anula el contrato) con el **Cancelar** de las ventanas, que solo cierra la ventana.",
+    "detail": null,
+    "labels": [],
+    "img": "img/cancelar/01.webp",
+    "w": 2100,
+    "h": 475,
+    "marks": [
+     {
+      "x": 18.48,
+      "y": 28.62,
+      "w": 6.58,
+      "h": 10.79
+     }
+    ]
+   },
+   {
+    "text": "Te pide confirmación. Pulsa **Aceptar**.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/cancelar/02.webp",
+    "w": 933,
+    "h": 389,
+    "marks": [
+     {
+      "x": 8.11,
+      "y": 67.38,
+      "w": 10.98,
+      "h": 13.18
+     }
+    ]
+   },
+   {
+    "text": "El contrato ya está **Cancelado**. Si hay que cobrar, ve a la pestaña **Política de cancelación**:",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "Pestaña de la cancelación.",
+     "**Política**: elige la que corresponde (según con cuánto tiempo avisa).",
+     "**Cargo de cancelación**: el importe a cobrar.",
+     "**Motivo**: por qué se cancela."
+    ],
+    "img": "img/cancelar/03.webp",
+    "w": 1360,
+    "h": 843,
+    "marks": [
+     {
+      "x": 79.32,
+      "y": 2.67,
+      "w": 17.42,
+      "h": 6.97
+     },
+     {
+      "x": 7.83,
+      "y": 19.64,
+      "w": 41.06,
+      "h": 4.74
+     },
+     {
+      "x": 65.66,
+      "y": 19.64,
+      "w": 32.41,
+      "h": 4.74
+     },
+     {
+      "x": 1.93,
+      "y": 69.46,
+      "w": 96.14,
+      "h": 27.87
+     }
+    ]
+   },
+   {
+    "text": "Guarda y pulsa **Cargo de cancelación**.",
+    "tip": null,
+    "warn": "Si dejas el cargo a **0** te dará el error «Indique el importe del cargo de cancelación». Si es **sin cargo**, simplemente no pulses este botón.",
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/cancelar/04.webp",
+    "w": 2100,
+    "h": 475,
+    "marks": [
+     {
+      "x": 0.71,
+      "y": 28.62,
+      "w": 10.27,
+      "h": 10.79
+     }
+    ]
+   },
+   {
+    "text": "Se crea la **factura del cargo** en borrador. Confírmala y regístrala como cualquier factura ([[cobrar-cuotas]]).",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/cancelar/05.webp",
+    "w": 2100,
+    "h": 1250,
+    "marks": [
+     {
+      "x": 0.77,
+      "y": 44.17,
+      "w": 64.21,
+      "h": 22.58
+     },
+     {
+      "x": 0.71,
+      "y": 10.88,
+      "w": 5.72,
+      "h": 4.1
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "reserva-multiple",
+  "title": "Reservar varias furgonetas para un mismo cliente",
+  "short": "Reserva múltiple",
+  "cat": "reservas",
+  "summary": "Cuando una empresa se lleva **dos o más furgonetas** a la vez, en vez de hacer los contratos de uno en uno haces una **Reserva Múltiple**: añades las furgonetas y al final se crean de golpe un **Contrato Grupo** y un contrato por cada furgoneta.",
+  "when": "Un cliente pide varias furgonetas para las mismas fechas (o parecidas).",
+  "before": [
+   "El cliente ya está dado de alta ([[nuevo-cliente]]).",
+   "Sabes qué tipos de furgoneta quiere, fechas y kilómetros."
+  ],
+  "tags": [
+   "varias furgonetas",
+   "varios vehiculos",
+   "flota",
+   "empresa",
+   "grupo",
+   "multiple",
+   "reserva multiple",
+   "lote"
+  ],
+  "warn": "Mientras la reserva está en **Borrador** no se ha creado ningún contrato: las furgonetas **no** quedan bloqueadas para otros. No la dejes a medias.",
+  "result": "Tienes un **Contrato Grupo** con un contrato en **Borrador** por cada furgoneta. Sigue en [[contratos-grupo]].",
+  "next": [
+   "contratos-grupo"
+  ],
+  "steps": [
+   {
+    "text": "Pulsa **Reserva Múltiple** en el menú.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/reserva-multiple/01.webp",
+    "w": 2100,
+    "h": 475,
+    "marks": [
+     {
+      "x": 40.35,
+      "y": 1.58,
+      "w": 8.0,
+      "h": 8.95
+     }
+    ]
+   },
+   {
+    "text": "Pulsa **Nuevo** y elige el **Cliente**. Revisa el tipo de pago y la tarjeta de la fianza.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "**Cliente**.",
+     "**Tipo de Pago** y **Tipo de Tarjeta**: valen para todas las furgonetas.",
+     "**Añadir Vehículo**."
+    ],
+    "img": "img/reserva-multiple/02.webp",
+    "w": 2100,
+    "h": 1250,
+    "marks": [
+     {
+      "x": 5.44,
+      "y": 22.18,
+      "w": 35.51,
+      "h": 3.2
+     },
+     {
+      "x": 49.17,
+      "y": 22.18,
+      "w": 32.44,
+      "h": 6.9
+     },
+     {
+      "x": 0.71,
+      "y": 10.88,
+      "w": 9.24,
+      "h": 4.1
+     }
+    ]
+   },
+   {
+    "text": "Se abre la misma ventana que en [[reservar|Reservar Vehículo]]: fechas, tipo y km. Pulsa **Reservar** en la furgoneta.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": "Aquí **Reservar** no crea el contrato: solo añade la furgoneta a la lista de la reserva múltiple.",
+    "labels": [
+     "Fechas de recogida y devolución.",
+     "Tipo, km y precio.",
+     "**Reservar** en la que quieras."
+    ],
+    "img": "img/reserva-multiple/03.webp",
+    "w": 1345,
+    "h": 1065,
+    "marks": [
+     {
+      "x": 16.32,
+      "y": 25.13,
+      "w": 78.01,
+      "h": 8.1
+     },
+     {
+      "x": 17.33,
+      "y": 33.82,
+      "w": 77.01,
+      "h": 16.43
+     },
+     {
+      "x": 85.06,
+      "y": 62.33,
+      "w": 7.29,
+      "h": 3.64
+     }
+    ]
+   },
+   {
+    "text": "Pulsa otra vez **Añadir Vehículo**. Las fechas y los km **ya vienen puestos** de la anterior: cambia solo el tipo si hace falta y pulsa **Reservar**.",
+    "tip": "La furgoneta que ya has añadido **no** vuelve a salir en la lista: no puedes meterla dos veces.",
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/reserva-multiple/04.webp",
+    "w": 1345,
+    "h": 1065,
+    "marks": [
+     {
+      "x": 16.32,
+      "y": 25.13,
+      "w": 78.01,
+      "h": 8.1
+     },
+     {
+      "x": 17.33,
+      "y": 33.82,
+      "w": 31.56,
+      "h": 3.76
+     },
+     {
+      "x": 85.06,
+      "y": 62.33,
+      "w": 7.29,
+      "h": 3.64
+     }
+    ]
+   },
+   {
+    "text": "Revisa la lista: una fila por furgoneta con sus fechas y su precio por día. Cuando esté todo, pulsa **Crear Reserva Múltiple**.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": "¿Te has equivocado de furgoneta? Borra la fila con la papelera antes de crear.",
+    "labels": [
+     "Las furgonetas de la reserva.",
+     "**Crear Reserva Múltiple**."
+    ],
+    "img": "img/reserva-multiple/05.webp",
+    "w": 2100,
+    "h": 1250,
+    "marks": [
+     {
+      "x": 1.73,
+      "y": 35.52,
+      "w": 79.88,
+      "h": 20.8
+     },
+     {
+      "x": 9.71,
+      "y": 10.88,
+      "w": 12.0,
+      "h": 4.1
+     }
+    ]
+   },
+   {
+    "text": "Te pide confirmación. Pulsa **Aceptar**.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/reserva-multiple/06.webp",
+    "w": 933,
+    "h": 363,
+    "marks": [
+     {
+      "x": 8.11,
+      "y": 65.02,
+      "w": 10.98,
+      "h": 14.13
+     }
+    ]
+   },
+   {
+    "text": "Listo: se ha creado el **Contrato Grupo** con un contrato por furgoneta, todos en **Borrador**.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "Nombre del grupo.",
+     "Un contrato por furgoneta."
+    ],
+    "img": "img/reserva-multiple/07.webp",
+    "w": 2100,
+    "h": 1250,
+    "marks": [
+     {
+      "x": 1.73,
+      "y": 16.68,
+      "w": 46.85,
+      "h": 4.83
+     },
+     {
+      "x": 1.73,
+      "y": 67.47,
+      "w": 62.3,
+      "h": 19.2
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "contratos-grupo",
+  "title": "Contrato Grupo: entregar todas y facturar en una sola factura",
+  "short": "Contrato grupo",
+  "cat": "cobros",
+  "summary": "El **Contrato Grupo** junta los contratos de varias furgonetas del mismo cliente. Desde él entregas todas de una vez y haces **una sola factura** con el alquiler, la fianza y los extras de todas.",
+  "when": "El cliente se lleva las furgonetas de una [[reserva-multiple]], o te pide una factura única por todas.",
+  "before": [
+   "Has creado el grupo con [[reserva-multiple]].",
+   "Cada contrato del grupo está revisado (conductor, seguro, combustible): ábrelos desde la pestaña **Vehículos / Contratos**."
+  ],
+  "tags": [
+   "grupo",
+   "contrato grupo",
+   "factura unica",
+   "factura consolidada",
+   "entregar todos",
+   "facturar periodo",
+   "varias furgonetas",
+   "empresa"
+  ],
+  "stop": "**Entregar todos** pasa **todas** las furgonetas a **En curso** a la vez, tengan o no conductor. Púlsalo solo cuando salgan **todas**. Si sale una hoy y otra mañana, entrégalas una a una desde cada contrato ([[entregar]]).",
+  "result": "Una sola factura en **Facturas Consolidadas** con una línea por cuota, fianza y extra de cada furgoneta.",
+  "notes": [
+   "**Facturar Período** solo factura lo que aún no está facturado. Si un contrato ya tenía su cuota facturada, no se repite.",
+   "Si una furgoneta choca con otra reserva o le falta algo, **Entregar todos** no entrega ninguna y te dice cuál falla."
+  ],
+  "next": [
+   "devolver",
+   "cobrar-cuotas"
+  ],
+  "steps": [
+   {
+    "text": "Abre el grupo (menú **Contratos Grupo**). Arriba están las fechas, el tipo de pago y los totales; abajo, un contrato por furgoneta.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "**Entregar todos**.",
+     "Totales del grupo (alquiler y fianza).",
+     "Los contratos. Pulsa uno para abrirlo y revisarlo."
+    ],
+    "img": "img/contratos-grupo/01.webp",
+    "w": 2100,
+    "h": 1250,
+    "marks": [
+     {
+      "x": 9.71,
+      "y": 10.8,
+      "w": 8.93,
+      "h": 4.1
+     },
+     {
+      "x": 8.34,
+      "y": 54.1,
+      "w": 23.82,
+      "h": 6.3
+     },
+     {
+      "x": 1.73,
+      "y": 67.4,
+      "w": 62.3,
+      "h": 19.2
+     }
+    ]
+   },
+   {
+    "text": "Sale el **correo de entrega** para el cliente. Pulsa **Enviar**.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": "Verás el texto con **códigos** (`object.vehicle_id...`). Es normal cuando son varias furgonetas: al enviarse, cada contrato manda su propio correo con sus datos. **No borres los códigos.**",
+    "labels": [],
+    "img": "img/contratos-grupo/02.webp",
+    "w": 1345,
+    "h": 1250,
+    "marks": [
+     {
+      "x": 5.62,
+      "y": 89.98,
+      "w": 6.56,
+      "h": 4.1
+     }
+    ]
+   },
+   {
+    "text": "Todas las furgonetas están **En curso**. Para cobrar, pulsa **Facturar Período**.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "Estado de cada contrato: **En curso**.",
+     "**Facturar Período**."
+    ],
+    "img": "img/contratos-grupo/03.webp",
+    "w": 2100,
+    "h": 1250,
+    "marks": [
+     {
+      "x": 58.52,
+      "y": 69.55,
+      "w": 6.46,
+      "h": 8.4
+     },
+     {
+      "x": 9.71,
+      "y": 10.8,
+      "w": 9.62,
+      "h": 4.1
+     }
+    ]
+   },
+   {
+    "text": "Se crea **una factura en borrador** con todas las líneas. Revisa los importes y pulsa **Confirmar**; luego cóbrala como siempre ([[cobrar-cuotas]]).",
+    "tip": null,
+    "warn": "Mira que la fianza salga **una vez por furgoneta**. Si falta alguna, no confirmes y avisa al responsable.",
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/contratos-grupo/04.webp",
+    "w": 2100,
+    "h": 1250,
+    "marks": [
+     {
+      "x": 1.73,
+      "y": 43.38,
+      "w": 62.3,
+      "h": 36.88
+     },
+     {
+      "x": 0.71,
+      "y": 10.88,
+      "w": 5.72,
+      "h": 4.1
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "panel",
+  "title": "El Panel: los números del día",
+  "short": "Panel",
+  "cat": "empezar",
+  "summary": "El Panel enseña de un vistazo cuántas furgonetas hay, cuántas están en taller, contratos en curso, devueltos y facturas pendientes. Cada cuadro se puede pulsar.",
+  "when": "Al empezar el día, para saber cómo está todo.",
+  "before": [
+   "Tienes las dos compañías marcadas ([[companias]])."
+  ],
+  "tags": [
+   "panel",
+   "dashboard",
+   "resumen",
+   "estadisticas",
+   "numeros",
+   "inicio"
+  ],
+  "result": "Sabes cuántas furgonetas hay libres, en taller y alquiladas, y qué facturas faltan por cobrar.",
+  "next": [
+   "disponibilidad"
+  ],
+  "steps": [
+   {
+    "text": "Arriba, las **estadísticas actuales**. Pulsa cualquier cuadro para ver la lista.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "**Vehículos Totales** y **Operacionales** (los que se pueden alquilar).",
+     "**Mantenimiento**: en el taller.",
+     "**Facturas Pendientes**: por cobrar."
+    ],
+    "img": "img/panel/01.webp",
+    "w": 2100,
+    "h": 1250,
+    "marks": [
+     {
+      "x": 14.29,
+      "y": 23.12,
+      "w": 5.95,
+      "h": 4.4
+     },
+     {
+      "x": 40.48,
+      "y": 23.12,
+      "w": 5.95,
+      "h": 4.4
+     },
+     {
+      "x": 11.43,
+      "y": 97.57,
+      "w": 77.14,
+      "h": 2.82
+     }
+    ]
+   },
+   {
+    "text": "Más abajo, los **contratos** por estado (En curso, Devuelto, Cancelado) y las gráficas de duración e ingresos.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/panel/02.webp",
+    "w": 2100,
+    "h": 1250,
+    "marks": []
+   }
+  ]
+ },
+ {
+  "id": "disponibilidad",
+  "title": "Ver qué furgonetas están ocupadas (Disponibilidad)",
+  "short": "Disponibilidad",
+  "cat": "empezar",
+  "summary": "Un calendario con una barra por cada contrato: de qué fecha a qué fecha está ocupada cada furgoneta.",
+  "when": "Para ver de un vistazo la ocupación de la flota, o antes de ampliar un alquiler.",
+  "before": [
+   "Tienes las dos compañías marcadas ([[companias]])."
+  ],
+  "tags": [
+   "disponibilidad",
+   "libre",
+   "libres",
+   "ocupada",
+   "calendario",
+   "gantt",
+   "que hay",
+   "hay furgonetas",
+   "ocupacion"
+  ],
+  "result": "Sabes qué furgonetas están ocupadas y hasta cuándo.",
+  "notes": [
+   [
+    "tip",
+    "Para saber qué furgonetas están **libres** en unas fechas concretas, lo más rápido es el asistente [[reservar]]: solo te enseña las libres."
+   ]
+  ],
+  "next": [
+   "reservar",
+   "ampliar"
+  ],
+  "steps": [
+   {
+    "text": "Pulsa **Disponibilidad** en el menú.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/disponibilidad/01.webp",
+    "w": 2100,
+    "h": 475,
+    "marks": [
+     {
+      "x": 25.46,
+      "y": 1.58,
+      "w": 7.08,
+      "h": 8.95
+     }
+    ]
+   },
+   {
+    "text": "Cada **fila** es una furgoneta con contrato, y cada **barra** es el tiempo que está alquilada.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": "Las furgonetas que **no salen** en la lista no tienen ningún contrato: están libres.",
+    "labels": [
+     "Furgoneta, fecha de inicio, fecha de fin y días.",
+     "La barra de cada contrato, con su número.",
+     "Las fechas, de izquierda a derecha."
+    ],
+    "img": "img/disponibilidad/02.webp",
+    "w": 2100,
+    "h": 1250,
+    "marks": [
+     {
+      "x": -0.18,
+      "y": 4.17,
+      "w": 31.37,
+      "h": 96.9
+     },
+     {
+      "x": 35.54,
+      "y": 4.52,
+      "w": 9.4,
+      "h": 3.8
+     },
+     {
+      "x": 19.64,
+      "y": 0.82,
+      "w": 229.64,
+      "h": 4.3
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ficha-vehiculo",
+  "title": "La ficha de una furgoneta: qué mirar",
+  "short": "Ficha de furgoneta",
+  "cat": "flota",
+  "summary": "Cada furgoneta tiene su **ficha** con la matrícula, de qué compañía es, en qué delegación está, si está operativa o en el taller, y todos sus contratos.",
+  "when": "Quieres saber dónde está una furgoneta, de quién es o qué contratos ha tenido.",
+  "before": [],
+  "tags": [
+   "vehiculo",
+   "furgoneta",
+   "ficha",
+   "matricula",
+   "flota",
+   "delegacion",
+   "kilometros",
+   "odometro",
+   "vehiculos"
+  ],
+  "warn": "No cambies la **Compañía** ni la **Delegación** de una furgoneta sin avisar al responsable: de la compañía depende quién factura sus contratos.",
+  "result": "Sabes de quién es la furgoneta, dónde está y si se puede alquilar.",
+  "next": [
+   "mantenimiento-vehiculo",
+   "disponibilidad"
+  ],
+  "steps": [
+   {
+    "text": "Pulsa **Vehículos Totales** en el menú.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/ficha-vehiculo/01.webp",
+    "w": 2100,
+    "h": 475,
+    "marks": [
+     {
+      "x": 48.0,
+      "y": 1.58,
+      "w": 8.34,
+      "h": 8.95
+     }
+    ]
+   },
+   {
+    "text": "Escribe la **matrícula** (o parte) en el buscador y pulsa Intro. Abre la furgoneta.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/ficha-vehiculo/02.webp",
+    "w": 2100,
+    "h": 475,
+    "marks": [
+     {
+      "x": 33.58,
+      "y": 13.16,
+      "w": 31.12,
+      "h": 10.92
+     },
+     {
+      "x": 49.23,
+      "y": 45.55,
+      "w": 22.83,
+      "h": 25.03
+     }
+    ]
+   },
+   {
+    "text": "Esta es la ficha. Lo importante:",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": "La delegación cambia sola cuando la furgoneta se devuelve en otra oficina.",
+    "labels": [
+     "Cinta **Operacional** (se puede alquilar) o **En Mantenimiento** (en el taller, no sale en las reservas).",
+     "**Matrícula**.",
+     "**Compañía**: de quién es la furgoneta. Sus contratos y facturas van a esa compañía.",
+     "**Delegación**: la oficina donde está ahora.",
+     "**Contratos de alquiler**: pulsa para ver todos los suyos."
+    ],
+    "img": "img/ficha-vehiculo/03.webp",
+    "w": 1460,
+    "h": 1179,
+    "marks": [
+     {
+      "x": 79.04,
+      "y": 9.97,
+      "w": 14.38,
+      "h": 17.81
+     },
+     {
+      "x": 2.48,
+      "y": 21.95,
+      "w": 20.28,
+      "h": 3.84
+     },
+     {
+      "x": 16.55,
+      "y": 50.83,
+      "w": 29.69,
+      "h": 3.39
+     },
+     {
+      "x": 71.85,
+      "y": 67.16,
+      "w": 20.19,
+      "h": 3.39
+     },
+     {
+      "x": 47.64,
+      "y": -0.72,
+      "w": 15.0,
+      "h": 4.35
+     }
+    ]
+   },
+   {
+    "text": "Más abajo: **cuentakilómetros**, tipo de combustible y el **Horario de Mantenimiento** (cada cuántos días va a revisión).",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/ficha-vehiculo/04.webp",
+    "w": 1360,
+    "h": 266,
+    "marks": [
+     {
+      "x": 76.4,
+      "y": 8.45,
+      "w": 9.55,
+      "h": 15.02
+     },
+     {
+      "x": 76.4,
+      "y": 76.53,
+      "w": 21.67,
+      "h": 15.02
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "mantenimiento-vehiculo",
+  "title": "Mandar una furgoneta al taller y registrar la reparación",
+  "short": "Mantenimiento",
+  "cat": "flota",
+  "summary": "Si una furgoneta va al taller, pulsa **En mantenimiento**: así deja de salir en las reservas. Crea una **Solicitud de mantenimiento** con lo que se le ha hecho, pasa la factura del taller y, cuando vuelva, pulsa **Disponible**.",
+  "when": "Una furgoneta tiene una avería, le toca revisión o va a la ITV.",
+  "before": [
+   "La furgoneta **no** está alquilada ahora (si lo está, primero [[devolver]] o [[sustituir]]).",
+   "Tiene puesto su **Horario de Mantenimiento** en la ficha ([[ficha-vehiculo]])."
+  ],
+  "tags": [
+   "taller",
+   "averia",
+   "mantenimiento",
+   "revision",
+   "itv",
+   "reparacion",
+   "mecanico",
+   "aceite",
+   "neumaticos",
+   "en mantenimiento",
+   "operacional",
+   "factura taller"
+  ],
+  "stop": "Si no la marcas **En Mantenimiento**, la furgoneta sigue saliendo como libre y alguien la puede reservar mientras está en el taller.",
+  "result": "La furgoneta tiene su solicitud con piezas y servicios, la factura del taller en borrador, y vuelve a estar **Disponible**.",
+  "notes": [
+   "Si la furgoneta está alquilada, el botón **En Mantenimiento** te dará el error «El vehículo … está alquilado ahora mismo».",
+   "Si no tiene **Horario de Mantenimiento**, **Crear Solicitud de Mantenimiento** te pedirá que lo pongas primero."
+  ],
+  "next": [
+   "ficha-vehiculo",
+   "disponibilidad"
+  ],
+  "steps": [
+   {
+    "text": "Abre la ficha de la furgoneta. Si no tiene **Horario de Mantenimiento**, pónselo y guarda.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/mantenimiento-vehiculo/01.webp",
+    "w": 1360,
+    "h": 266,
+    "marks": [
+     {
+      "x": 76.4,
+      "y": 76.53,
+      "w": 21.67,
+      "h": 15.02
+     }
+    ]
+   },
+   {
+    "text": "Pulsa **En mantenimiento** (botón rojo).",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/mantenimiento-vehiculo/02.webp",
+    "w": 2100,
+    "h": 475,
+    "marks": [
+     {
+      "x": 0.71,
+      "y": 28.62,
+      "w": 8.85,
+      "h": 10.79
+     }
+    ]
+   },
+   {
+    "text": "La cinta cambia a **En Mantenimiento** y arriba pone **En mantenimiento**. Ya no sale en las reservas ni en la web.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/mantenimiento-vehiculo/03.webp",
+    "w": 1490,
+    "h": 1179,
+    "marks": [
+     {
+      "x": 77.45,
+      "y": 9.97,
+      "w": 14.09,
+      "h": 17.81
+     },
+     {
+      "x": 69.5,
+      "y": 5.51,
+      "w": 22.12,
+      "h": 4.35
+     }
+    ]
+   },
+   {
+    "text": "Ahora pulsa **Crear Solicitud de Mantenimiento** (botón amarillo).",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/mantenimiento-vehiculo/04.webp",
+    "w": 2100,
+    "h": 475,
+    "marks": [
+     {
+      "x": 6.41,
+      "y": 28.62,
+      "w": 14.88,
+      "h": 10.79
+     }
+    ]
+   },
+   {
+    "text": "Se crea la solicitud con la furgoneta, los km y la **próxima revisión** calculada.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/mantenimiento-vehiculo/05.webp",
+    "w": 1460,
+    "h": 1064,
+    "marks": [
+     {
+      "x": 16.69,
+      "y": 20.09,
+      "w": 29.55,
+      "h": 3.41
+     },
+     {
+      "x": 16.69,
+      "y": 54.17,
+      "w": 29.55,
+      "h": 3.41
+     }
+    ]
+   },
+   {
+    "text": "En **Piezas y Servicios Usados** apunta lo que ha hecho el taller: repuestos arriba, mano de obra y servicios abajo. Guarda.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "Pestaña **Piezas y Servicios Usados**.",
+     "Una línea por servicio (aceite, frenos, ITV, neumáticos…) con su importe."
+    ],
+    "img": "img/mantenimiento-vehiculo/06.webp",
+    "w": 1360,
+    "h": 825,
+    "marks": [
+     {
+      "x": 8.46,
+      "y": 2.73,
+      "w": 19.33,
+      "h": 7.12
+     },
+     {
+      "x": 1.93,
+      "y": 60.15,
+      "w": 96.14,
+      "h": 37.12
+     }
+    ]
+   },
+   {
+    "text": "Pulsa **Crear factura** (arriba) para pasar la factura del taller.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/mantenimiento-vehiculo/07.webp",
+    "w": 2100,
+    "h": 475,
+    "marks": [
+     {
+      "x": 5.75,
+      "y": 28.62,
+      "w": 6.98,
+      "h": 10.79
+     }
+    ]
+   },
+   {
+    "text": "Elige el **taller** (proveedor) y pulsa **Crear factura**.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/mantenimiento-vehiculo/08.webp",
+    "w": 1345,
+    "h": 383,
+    "marks": [
+     {
+      "x": 14.17,
+      "y": 41.54,
+      "w": 34.71,
+      "h": 10.45
+     },
+     {
+      "x": 5.62,
+      "y": 66.85,
+      "w": 10.89,
+      "h": 13.39
+     }
+    ]
+   },
+   {
+    "text": "Se crea la **factura de proveedor** en borrador con las líneas. Comprueba el importe con el papel del taller y adjunta la factura.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": "Contabilidad la confirmará y la pagará. Tú solo comprueba que el importe coincide.",
+    "labels": [],
+    "img": "img/mantenimiento-vehiculo/09.webp",
+    "w": 1460,
+    "h": 1111,
+    "marks": [
+     {
+      "x": 2.48,
+      "y": 54.67,
+      "w": 89.56,
+      "h": 22.72
+     }
+    ]
+   },
+   {
+    "text": "Cuando la furgoneta vuelva del taller, abre su ficha y pulsa **Disponible** (botón verde).",
+    "tip": null,
+    "warn": "Si se te olvida, la furgoneta **no** sale en las reservas aunque esté lista.",
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/mantenimiento-vehiculo/10.webp",
+    "w": 2100,
+    "h": 475,
+    "marks": [
+     {
+      "x": 0.71,
+      "y": 28.62,
+      "w": 5.94,
+      "h": 10.79
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "gasto-vehiculo",
+  "title": "Apuntar un gasto de una furgoneta (lavado, gasoil, peaje…)",
+  "short": "Gasto de furgoneta",
+  "cat": "flota",
+  "summary": "Los gastos pequeños de una furgoneta (lavado, combustible, peaje, aparcamiento…) se apuntan en su ficha, en la pestaña **Gastos del vehículo**. El gasto va solo a la **compañía dueña** de la furgoneta.",
+  "when": "Has pagado algo para una furgoneta y tienes el ticket.",
+  "before": [
+   "Tienes el **ticket** o factura (foto o PDF).",
+   "Sunset y Pinveco **marcadas** en el selector de compañías ([[companias]])."
+  ],
+  "tags": [
+   "gasto",
+   "gastos",
+   "ticket",
+   "lavado",
+   "gasoil",
+   "gasolina",
+   "peaje",
+   "parking",
+   "aparcamiento",
+   "recibo",
+   "combustible"
+  ],
+  "warn": "Escribe **quién** hizo el gasto en **Empleado (texto)**. Si lo dejas vacío sale el error «Indique el empleado del gasto».",
+  "result": "El gasto queda en la ficha de la furgoneta y en la compañía dueña, listo para que contabilidad lo revise.",
+  "notes": [
+   "Las reparaciones de taller **no** van aquí: van en una solicitud de mantenimiento ([[mantenimiento-vehiculo]])."
+  ],
+  "next": [
+   "mantenimiento-vehiculo",
+   "ficha-vehiculo"
+  ],
+  "steps": [
+   {
+    "text": "En la ficha de la furgoneta marca **¿Hay Gastos del Vehículo?**. Aparece la pestaña **Gastos del vehículo**.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "**¿Hay Gastos del Vehículo?**",
+     "La **compañía** dueña: el gasto irá a ella."
+    ],
+    "img": "img/gasto-vehiculo/01.webp",
+    "w": 1460,
+    "h": 1179,
+    "marks": [
+     {
+      "x": 71.85,
+      "y": 75.01,
+      "w": 2.48,
+      "h": 3.29
+     },
+     {
+      "x": 16.55,
+      "y": 50.83,
+      "w": 29.69,
+      "h": 3.39
+     }
+    ]
+   },
+   {
+    "text": "Abre la pestaña **Gastos del vehículo** y pulsa **Añadir una línea**.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/gasto-vehiculo/02.webp",
+    "w": 1360,
+    "h": 356,
+    "marks": [
+     {
+      "x": 22.9,
+      "y": 6.3,
+      "w": 15.43,
+      "h": 16.45
+     },
+     {
+      "x": 1.93,
+      "y": 37.72,
+      "w": 10.21,
+      "h": 8.75
+     }
+    ]
+   },
+   {
+    "text": "Rellena el gasto:",
+    "tip": "Adjunta la foto del ticket con **Adjuntar recibo** (arriba en la ventana).",
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "**Descripción**: qué es.",
+     "**Categoría**: el tipo de gasto.",
+     "**Total** del ticket.",
+     "**Empleado (texto)**: quién lo pagó."
+    ],
+    "img": "img/gasto-vehiculo/03.webp",
+    "w": 1345,
+    "h": 831,
+    "marks": [
+     {
+      "x": 5.67,
+      "y": 27.24,
+      "w": 66.68,
+      "h": 7.71
+     },
+     {
+      "x": 20.67,
+      "y": 40.62,
+      "w": 28.22,
+      "h": 4.81
+     },
+     {
+      "x": 20.67,
+      "y": 46.18,
+      "w": 14.71,
+      "h": 4.81
+     },
+     {
+      "x": 20.67,
+      "y": 62.12,
+      "w": 28.22,
+      "h": 4.81
+     }
+    ]
+   },
+   {
+    "text": "Guarda la ficha. El gasto queda en la lista de la furgoneta.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/gasto-vehiculo/04.webp",
+    "w": 1360,
+    "h": 405,
+    "marks": [
+     {
+      "x": 1.93,
+      "y": 22.48,
+      "w": 96.14,
+      "h": 71.98
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "seguros",
+  "title": "Tarifas de seguros: qué cuesta el seguro sin franquicia",
+  "short": "Seguros",
+  "cat": "config",
+  "summary": "Las **Tarifas de Seguros** dan el precio por día del seguro según el **tipo de seguro**, los **días** y el **tipo de conductor** (normal, o especial si tiene menos de 25 o más de 60 años).",
+  "when": "Un cliente pregunta cuánto cuesta quitar la franquicia, o vas a cambiar el precio del seguro.",
+  "before": [
+   "Solo para el **responsable**: el personal de mostrador normalmente no ve estos menús."
+  ],
+  "tags": [
+   "seguro",
+   "franquicia",
+   "sin franquicia",
+   "seguro basico",
+   "conductor joven",
+   "menor de 25",
+   "mayor de 60",
+   "precio seguro"
+  ],
+  "result": "Sabes qué precio por día se suma al contrato al elegir **Sin Franquicia**.",
+  "notes": [
+   "El **Seguro Básico** lleva una franquicia de **750 € + IVA**: si hay un daño, el cliente paga hasta esa cantidad.",
+   "El tipo de conductor sale solo de la fecha de nacimiento del conductor ([[nuevo-cliente]]).",
+   "Para cambiar precios, igual que en [[tarifas]]: no edites, crea una nueva con fecha **Vigente desde**."
+  ],
+  "next": [
+   "revisar-contrato",
+   "tarifas"
+  ],
+  "steps": [
+   {
+    "text": "Pulsa el **+** del menú y luego **Tarifas de Seguros**.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/seguros/01.webp",
+    "w": 2100,
+    "h": 475,
+    "marks": [
+     {
+      "x": 79.63,
+      "y": 40.26,
+      "w": 15.34,
+      "h": 9.21
+     }
+    ]
+   },
+   {
+    "text": "Cada fila es un precio por día: tipo de seguro, días y tipo de conductor.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "Conductor **Normal**.",
+     "Conductor **Especial** (menos de 25 o más de 60 años): es más caro."
+    ],
+    "img": "img/seguros/02.webp",
+    "w": 2100,
+    "h": 475,
+    "marks": [
+     {
+      "x": -0.24,
+      "y": 37.05,
+      "w": 100.48,
+      "h": 12.63
+     },
+     {
+      "x": -0.24,
+      "y": 47.58,
+      "w": 100.48,
+      "h": 12.63
+     }
+    ]
+   },
+   {
+    "text": "Dentro de una tarifa:",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "**Tipo de seguro**.",
+     "**Duración** (tramo de días).",
+     "**Tipo de conductor**.",
+     "**Precio por día** con IVA."
+    ],
+    "img": "img/seguros/03.webp",
+    "w": 1830,
+    "h": 1090,
+    "marks": [
+     {
+      "x": 12.56,
+      "y": 21.04,
+      "w": 34.44,
+      "h": 8.03
+     },
+     {
+      "x": 12.56,
+      "y": 29.64,
+      "w": 34.44,
+      "h": 3.67
+     },
+     {
+      "x": 12.56,
+      "y": 33.88,
+      "w": 34.44,
+      "h": 8.03
+     },
+     {
+      "x": 56.99,
+      "y": 21.04,
+      "w": 13.82,
+      "h": 3.67
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "reglas-deposito",
+  "title": "Reglas de depósito: de dónde sale la fianza",
+  "short": "Reglas de depósito",
+  "cat": "config",
+  "summary": "La **fianza** de cada contrato sale de las **Reglas de Depósitos**: según el **tipo** de furgoneta y cómo paga el cliente (**tarjeta de crédito**, débito o **efectivo**).",
+  "when": "Un cliente pregunta cuánta fianza tiene que dejar, o el responsable quiere cambiarla.",
+  "before": [
+   "Solo para el **responsable**: el personal de mostrador normalmente no ve estos menús."
+  ],
+  "tags": [
+   "fianza",
+   "deposito",
+   "garantia",
+   "efectivo",
+   "tarjeta",
+   "credito",
+   "debito",
+   "cuanto de fianza"
+  ],
+  "warn": "Con **efectivo** la fianza es más alta y el seguro **sin franquicia** es obligatorio: si no, el contrato no se puede entregar.",
+  "result": "Sabes qué fianza se cobrará en cada caso.",
+  "notes": [
+   "La regla puede ser un importe **fijo**, un **porcentaje** del alquiler, o las dos cosas, con un mínimo y un máximo."
+  ],
+  "next": [
+   "revisar-contrato",
+   "devolver-fianza"
+  ],
+  "steps": [
+   {
+    "text": "Pulsa el **+** del menú y luego **Reglas de Depósitos**.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/reglas-deposito/01.webp",
+    "w": 2100,
+    "h": 475,
+    "marks": [
+     {
+      "x": 79.63,
+      "y": 47.37,
+      "w": 15.34,
+      "h": 9.21
+     }
+    ]
+   },
+   {
+    "text": "Escribe el tipo de furgoneta. Hay una regla por cada forma de pago.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/reglas-deposito/02.webp",
+    "w": 2100,
+    "h": 475,
+    "marks": [
+     {
+      "x": -0.24,
+      "y": 37.05,
+      "w": 100.48,
+      "h": 12.63
+     }
+    ]
+   },
+   {
+    "text": "Dentro de una regla:",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "**Tipo de vehículo**.",
+     "**Tipo de tarjeta** (crédito, débito o efectivo).",
+     "**Importe fijo** de la fianza.",
+     "Mínimo y máximo."
+    ],
+    "img": "img/reglas-deposito/03.webp",
+    "w": 1830,
+    "h": 991,
+    "marks": [
+     {
+      "x": 13.32,
+      "y": 13.77,
+      "w": 33.67,
+      "h": 4.03
+     },
+     {
+      "x": 13.32,
+      "y": 20.7,
+      "w": 33.67,
+      "h": 12.72
+     },
+     {
+      "x": 13.32,
+      "y": 41.55,
+      "w": 33.67,
+      "h": 4.03
+     },
+     {
+      "x": 58.47,
+      "y": 41.55,
+      "w": 35.18,
+      "h": 8.69
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "politicas",
+  "title": "Políticas de cancelación",
+  "short": "Políticas de cancelación",
+  "cat": "config",
+  "summary": "Las **Políticas de Cancelación** son los textos que se eligen al [[cancelar]] un contrato: gratis con más de 48 h, con cargo con menos de 48 h, o «No presentado».",
+  "when": "Vas a cancelar y no sabes qué política elegir, o el responsable quiere cambiar el texto.",
+  "before": [
+   "Solo para el **responsable**: el personal de mostrador normalmente no ve estos menús."
+  ],
+  "tags": [
+   "cancelacion",
+   "politica",
+   "anular",
+   "no presentado",
+   "no show",
+   "48 horas",
+   "condiciones cancelacion"
+  ],
+  "result": "Sabes qué política aplicar en cada cancelación.",
+  "notes": [
+   "Hay una política igual para cada compañía (Sunset y Pinveco). Se usa la de la compañía del contrato."
+  ],
+  "next": [
+   "cancelar"
+  ],
+  "steps": [
+   {
+    "text": "Pulsa el **+** del menú y, en **Configuraciones**, **Política de cancelación**.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/politicas/01.webp",
+    "w": 2100,
+    "h": 475,
+    "marks": [
+     {
+      "x": 79.63,
+      "y": 63.08,
+      "w": 15.34,
+      "h": 9.21
+     }
+    ]
+   },
+   {
+    "text": "Estas son las políticas. Cada una con su compañía.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "**Gratuita**: cancela con más de 48 h. Sin cargo.",
+     "**Menos de 48 h**: se cobra un cargo.",
+     "**No presentado**: no vino a recogerla."
+    ],
+    "img": "img/politicas/02.webp",
+    "w": 2100,
+    "h": 475,
+    "marks": [
+     {
+      "x": -0.24,
+      "y": 36.92,
+      "w": 100.48,
+      "h": 12.63
+     },
+     {
+      "x": -0.24,
+      "y": 47.45,
+      "w": 100.48,
+      "h": 12.63
+     },
+     {
+      "x": -0.24,
+      "y": 57.97,
+      "w": 100.48,
+      "h": 12.63
+     }
+    ]
+   },
+   {
+    "text": "Dentro está el **texto** que verá el cliente.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/politicas/03.webp",
+    "w": 1830,
+    "h": 610,
+    "marks": [
+     {
+      "x": 1.98,
+      "y": 12.5,
+      "w": 68.89,
+      "h": 10.51
+     },
+     {
+      "x": 1.98,
+      "y": 44.67,
+      "w": 91.67,
+      "h": 38.52
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "terminos",
+  "title": "Términos y condiciones del contrato",
+  "short": "Términos",
+  "cat": "config",
+  "summary": "Los **Términos de Acuerdo de Alquiler** son las condiciones generales que salen impresas en el contrato. Hay unos por compañía.",
+  "when": "Un cliente pregunta por una condición, o el responsable tiene que actualizar el texto.",
+  "before": [
+   "Solo para el **responsable**: el personal de mostrador normalmente no ve estos menús."
+  ],
+  "tags": [
+   "condiciones",
+   "terminos",
+   "clausulas",
+   "contrato",
+   "letra pequeña",
+   "condiciones generales"
+  ],
+  "stop": "Estos textos son **legales**. No los cambies sin que lo apruebe el responsable o la asesoría.",
+  "result": "Sabes dónde están las condiciones que firma el cliente.",
+  "next": [
+   "imprimir-enviar"
+  ],
+  "steps": [
+   {
+    "text": "Pulsa el **+** del menú y, en **Configuraciones**, **Términos de Acuerdo de Alquiler**.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/terminos/01.webp",
+    "w": 2100,
+    "h": 475,
+    "marks": [
+     {
+      "x": 79.63,
+      "y": 70.18,
+      "w": 15.34,
+      "h": 9.21
+     }
+    ]
+   },
+   {
+    "text": "Una fila por compañía.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/terminos/02.webp",
+    "w": 2100,
+    "h": 475,
+    "marks": [
+     {
+      "x": -0.24,
+      "y": 36.92,
+      "w": 100.48,
+      "h": 12.63
+     },
+     {
+      "x": -0.24,
+      "y": 47.45,
+      "w": 100.48,
+      "h": 12.63
+     }
+    ]
+   },
+   {
+    "text": "El texto completo. Es lo que sale en las últimas páginas del contrato impreso.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/terminos/03.webp",
+    "w": 2100,
+    "h": 475,
+    "marks": [
+     {
+      "x": 1.73,
+      "y": 26.51,
+      "w": 79.88,
+      "h": 577.37
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "delegaciones",
+  "title": "Delegaciones (oficinas)",
+  "short": "Delegaciones",
+  "cat": "config",
+  "summary": "Las **Delegaciones** son las oficinas donde se recogen y devuelven las furgonetas. Su dirección, teléfono, correo y horario salen en los correos al cliente.",
+  "when": "Cambia el teléfono o el horario de una oficina, o quieres ver cuántas furgonetas tiene.",
+  "before": [
+   "Solo para el **responsable**: el personal de mostrador normalmente no ve estos menús."
+  ],
+  "tags": [
+   "delegacion",
+   "oficina",
+   "sucursal",
+   "horario",
+   "direccion oficina",
+   "telefono oficina",
+   "malaga",
+   "sevilla",
+   "cordoba"
+  ],
+  "warn": "Revisa bien el **correo** y el **teléfono**: son los que ve el cliente en los correos de reserva y entrega.",
+  "result": "Los datos de la oficina están al día.",
+  "next": [
+   "reservar",
+   "ficha-vehiculo"
+  ],
+  "steps": [
+   {
+    "text": "Pulsa el **+** del menú y, en **Configuraciones**, **Delegaciones**.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/delegaciones/01.webp",
+    "w": 2100,
+    "h": 475,
+    "marks": [
+     {
+      "x": 79.63,
+      "y": 91.5,
+      "w": 15.34,
+      "h": 9.21
+     }
+    ]
+   },
+   {
+    "text": "Las oficinas, con el número de furgonetas que hay en cada una.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/delegaciones/02.webp",
+    "w": 2100,
+    "h": 475,
+    "marks": [
+     {
+      "x": -0.24,
+      "y": 36.92,
+      "w": 100.48,
+      "h": 12.63
+     }
+    ]
+   },
+   {
+    "text": "Dentro: dirección, teléfono, correo y horario.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/delegaciones/03.webp",
+    "w": 1830,
+    "h": 619,
+    "marks": [
+     {
+      "x": 7.21,
+      "y": 41.27,
+      "w": 39.79,
+      "h": 6.46
+     },
+     {
+      "x": 58.12,
+      "y": 41.27,
+      "w": 35.53,
+      "h": 13.93
+     },
+     {
+      "x": 58.12,
+      "y": 56.21,
+      "w": 35.53,
+      "h": 11.71
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "tarifas",
+  "title": "Tarifas de alquiler: consultarlas y subir precios para la nueva temporada",
+  "short": "Tarifas",
+  "cat": "config",
+  "summary": "Las **Tarifas de Vehículos** dan el precio por día según el **tipo** de furgoneta, los **días** y los **km**. Para cambiar precios no se toca la tarifa vieja: se **duplica con nuevas fechas** y a partir de ese día se usa la nueva sola.",
+  "when": "Quieres saber cuánto cuesta un alquiler, o vas a cambiar precios (por ejemplo, el 1 de enero).",
+  "before": [
+   "Solo para el **responsable**: el personal de mostrador normalmente no ve estos menús."
+  ],
+  "tags": [
+   "precio",
+   "precios",
+   "tarifa",
+   "tarifas",
+   "subir precios",
+   "nueva temporada",
+   "temporada",
+   "cuanto cuesta",
+   "precio por dia",
+   "flexirent",
+   "duplicar"
+  ],
+  "stop": "**No cambies el precio** de una tarifa que ya está en uso: cambiarías el precio de los contratos que se recalculen. Duplícala con una fecha **Vigente desde** nueva.",
+  "result": "La nueva tarifa entra sola el día de **Vigente Desde**. Hasta entonces se sigue usando la vieja.",
+  "notes": [
+   "Los precios llevan el **IVA incluido**. La columna **Sin IVA** se calcula sola.",
+   "Si una combinación (tipo + días + km) no tiene tarifa, al reservar sale **Tarifa 0,00**."
+  ],
+  "next": [
+   "reservar",
+   "seguros"
+  ],
+  "steps": [
+   {
+    "text": "Pulsa el **+** del menú y luego **Tarifas de Vehículos**.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/tarifas/01.webp",
+    "w": 2100,
+    "h": 475,
+    "marks": [
+     {
+      "x": 79.63,
+      "y": 33.16,
+      "w": 15.34,
+      "h": 9.21
+     }
+    ]
+   },
+   {
+    "text": "Escribe el tipo (por ejemplo «Tipo D») en el buscador. Cada fila es un precio por día para unos días y unos km.",
+    "tip": "Con el filtro **Vigentes Hoy** ves solo los precios que se aplican hoy.",
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "El buscador.",
+     "Una tarifa: tipo, duración, km y **Precio/Día**."
+    ],
+    "img": "img/tarifas/02.webp",
+    "w": 2100,
+    "h": 475,
+    "marks": [
+     {
+      "x": 30.55,
+      "y": 13.16,
+      "w": 37.18,
+      "h": 10.92
+     },
+     {
+      "x": -0.24,
+      "y": 68.63,
+      "w": 100.48,
+      "h": 12.63
+     }
+    ]
+   },
+   {
+    "text": "Abre una tarifa. Lo que tiene:",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "**Tipo de vehículo** y **Tipo** (Estándar o FLEXIRENT).",
+     "**Vigencia**: desde y hasta qué día vale.",
+     "**Rango de km** y **Duración**.",
+     "**Precio por día** con IVA."
+    ],
+    "img": "img/tarifas/03.webp",
+    "w": 1830,
+    "h": 806,
+    "marks": [
+     {
+      "x": 13.32,
+      "y": 28.43,
+      "w": 33.67,
+      "h": 19.36
+     },
+     {
+      "x": 56.55,
+      "y": 28.43,
+      "w": 37.1,
+      "h": 10.69
+     },
+     {
+      "x": 13.32,
+      "y": 64.37,
+      "w": 33.67,
+      "h": 13.48
+     },
+     {
+      "x": 53.51,
+      "y": 64.37,
+      "w": 15.56,
+      "h": 4.96
+     }
+    ]
+   },
+   {
+    "text": "Para un precio nuevo pulsa **Duplicar con Nuevas Fechas**.",
+    "tip": null,
+    "warn": null,
+    "stop": null,
+    "detail": null,
+    "labels": [],
+    "img": "img/tarifas/04.webp",
+    "w": 2100,
+    "h": 475,
+    "marks": [
+     {
+      "x": 0.71,
+      "y": 28.62,
+      "w": 12.88,
+      "h": 10.79
+     }
+    ]
+   },
+   {
+    "text": "Se abre una copia con el mismo tipo, días y km. Pon la fecha **Vigente desde** y el **precio nuevo**, y guarda.",
+    "tip": null,
+    "warn": "Repite con **cada** combinación que cambie de precio. Las que no dupliques siguen con el precio viejo.",
+    "stop": null,
+    "detail": null,
+    "labels": [
+     "**Vigente desde**: el día que empieza el precio nuevo.",
+     "**Precio por día** nuevo (con IVA).",
+     "**Guardar**."
+    ],
+    "img": "img/tarifas/05.webp",
+    "w": 1345,
+    "h": 1001,
+    "marks": [
+     {
+      "x": 61.88,
+      "y": 35.26,
+      "w": 32.45,
+      "h": 3.99
+     },
+     {
+      "x": 57.75,
+      "y": 64.2,
+      "w": 12.16,
+      "h": 3.99
+     },
+     {
+      "x": 5.62,
+      "y": 87.34,
+      "w": 7.75,
+      "h": 5.11
+     }
+    ]
+   }
+  ]
+ }
+]
